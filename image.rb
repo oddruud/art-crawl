@@ -6,8 +6,9 @@ module ArtCrawl
 class Image
 
   attr_reader :img
+  attr_reader :mean_color
 
-  def initialize filename
+  def initialize filename 
     puts "analyzing image #{filename}..." 
     begin 
       @img = Magick::Image.read( filename )[0]
@@ -16,36 +17,29 @@ class Image
     
     unless @img.nil?
       puts @img.to_s
-      @img = @img.quantize(16)
+      @img = @img.quantize( 16 )
       histogram = @img.color_histogram()
-      #puts histogram.to_a.to_s  
-      
-      histogram.each do |k,v|  
-        puts "#{k} : #{v}"
-      end
-       
+      @mean_color = get_mean_color( histogram )       
     end
   end
   
-  def mean_color histogram
-    color = Hash.new()
-    color["red"] = 0 
-    color["green"] = 0 
-    color["blue"] = 0 
-    
-    count = 0    
-    histogram.each do |k,v|      
-      count += v  
-      color["red"] += k["red"] 
-      color["green"] += k["green"] 
-      color["blue"] += k["blue"]     
+  def get_mean_color( histogram )
+    red = 0
+    blue = 0
+    green = 0
+    count = 0
+       
+    histogram.each do |pixel, occurances|       
+      count += occurances  
+      red   += pixel.red    * occurances
+      green += pixel.green  * occurances
+      blue  += pixel.blue   * occurances
     end
     
-    color["red"] /= count 
-    color["green"] /= count 
-    color["blue"] /= count
-    
-    return color 
+    red   /= count 
+    green /= count 
+    blue  /= count  
+    return {"red"=>red, "green"=>green, "blue"=>blue}
   end
   
   

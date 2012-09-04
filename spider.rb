@@ -91,7 +91,7 @@ class Spider
     system("cd images && curl -O -# #{url}")  
     parts = url.split('/')
     image_path = "images/" + parts[ parts.length-1 ].split('?')[0]; 
-    image = Image.new(image_path)
+    image = Image.new( image_path )
   end  
   
 end
