@@ -1,10 +1,11 @@
+$LOAD_PATH.unshift( File.join( File.dirname(__FILE__), 'art_crawl' ) ) 
+$LOAD_PATH.unshift( File.join( File.dirname(__FILE__), 'art_crawl/models' ) ) 
+
 require 'rubygems'
-require 'sqlite3'
 require 'spider'
+require 'art_crawl_data'
 
 module ArtCrawl
-
-  attr_reader :database
 
   def ArtCrawl.show_info
       puts "Art Crawl 0.1"
@@ -12,9 +13,10 @@ module ArtCrawl
    
   def ArtCrawl.start
     ArtCrawl.show_info    
+    ArtCrawl::ArtCrawlData.start( "data/database.yml" )
+    
     spider = Spider.new()
-    sources = ArtCrawl.load_sources( "sources" )
-    @database = ArtCrawl.load_database( "artcrawl.db" )
+    sources = ArtCrawl.load_sources( "data/sources" )
     sources.each_index { |i| puts "#{i}: #{sources[i]}"}    
     parameters = Hash.new()
     
@@ -27,16 +29,6 @@ module ArtCrawl
     end
     
   end  
-  
-  def ArtCrawl.save_image( image )
-    puts "storing image in DB"
-  end 
-  
-  def ArtCrawl.load_database( database_name )
-    database = SQLite3::Database.new database_name
-  
-    return database 
-  end
   
   def ArtCrawl.load_sources( sources_file )
     sources = Array.new()
