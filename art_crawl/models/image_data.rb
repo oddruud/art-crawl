@@ -11,13 +11,12 @@ class ImageData < ActiveRecord::Base
     image_data.save()
   end
   
-  def get_by_color( color )
+  def get_by_color( color, color_tolerance)
     image_data = ImageData.where(:mean_color => color) 
   end
-   
-  def get_by_name( name )
-
-  end
   
+  def get_by_color_and_dimensions( color, color_tolerance, width = nil, height = nil )
+    image_data = ImageData.where(:mean_color => color) 
+  end    
   
 end

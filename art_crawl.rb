@@ -1,6 +1,7 @@
 $LOAD_PATH.unshift( File.join( File.dirname(__FILE__), 'art_crawl' ) ) 
 $LOAD_PATH.unshift( File.join( File.dirname(__FILE__), 'art_crawl/models' ) ) 
-
+$LOAD_PATH.unshift( File.join( File.dirname(__FILE__), 'art_crawl/utils' ) )
+ 
 require 'rubygems'
 require 'spider'
 require 'art_crawl_data'

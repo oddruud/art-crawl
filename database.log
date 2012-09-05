@@ -301,4 +301,1055 @@ D, [2012-09-05T11:24:08.707394 #94014] DEBUG -- :   [1m[36mSQL (0.6ms)[0m  [
 D, [2012-09-05T11:24:08.709752 #94014] DEBUG -- :   [1m[35m (2.1ms)[0m  commit transaction
 D, [2012-09-05T11:24:08.805637 #94014] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
 D, [2012-09-05T11:24:08.806962 #94014] DEBUG -- :   [1m[35mSQL (0.6ms)[0m  INSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)  [["file_name", "images/paradise_by_kaiser_mony-d5dq034.png"], ["height", 200], ["mean_color", {"red"=>36570, "blue"=>26116, "green"=>25619}], ["meta_data", nil], ["quality", nil], ["width", 161]]
-D, [2012-09-05T11:24:08.808993 #94014] DEBUG -- :   [1m[36m (1.8ms)[0m  [1mcom
+D, [2012-09-05T11:24:08.808993 #94014] DEBUG -- :   [1m[36m (1.8ms)[0m  [1mcomD, [2012-09-05T12:05:20.531444 #94236] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+D, [2012-09-05T12:05:20.546985 #94236] DEBUG -- :   [1m[35mSQL (13.9ms)[0m  INSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)  [["file_name", "images/default.gif"], ["height", 50], ["mean_color", 563076508], ["meta_data", nil], ["quality", nil], ["width", 50]]
+D, [2012-09-05T12:05:20.548908 #94236] DEBUG -- :   [1m[36m (1.5ms)[0m  [1mcommit transaction[0m
+D, [2012-09-05T12:05:20.602486 #94236] DEBUG -- :   [1m[35m (0.1ms)[0m  begin transaction
+D, [2012-09-05T12:05:20.603586 #94236] DEBUG -- :   [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)[0m  [["file_name", "images/logo.png"], ["height", 42], ["mean_color", 533168370], ["meta_data", nil], ["quality", nil], ["width", 125]]
+D, [2012-09-05T12:05:20.605664 #94236] DEBUG -- :   [1m[35m (1.8ms)[0m  commit transaction
+D, [2012-09-05T12:05:20.655104 #94236] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+D, [2012-09-05T12:05:20.656316 #94236] DEBUG -- :   [1m[35mSQL (0.3ms)[0m  INSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)  [["file_name", "images/radmadright.png"], ["height", 11], ["mean_color", 2176949527], ["meta_data", nil], ["quality", nil], ["width", 11]]
+D, [2012-09-05T12:05:20.658480 #94236] DEBUG -- :   [1m[36m (1.9ms)[0m  [1mcommit transaction[0m
+D, [2012-09-05T12:05:20.813461 #94236] DEBUG -- :   [1m[35m (0.1ms)[0m  begin transaction
+D, [2012-09-05T12:05:20.814530 #94236] DEBUG -- :   [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)[0m  [["file_name", "images/dark_notes_by_dementeddiva23-d5dqdao.jpg"], ["height", 200], ["mean_color", 1049912163], ["meta_data", nil], ["quality", nil], ["width", 298]]
+D, [2012-09-05T12:05:20.816381 #94236] DEBUG -- :   [1m[35m (1.6ms)[0m  commit transaction
+D, [2012-09-05T12:05:20.896438 #94236] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+D, [2012-09-05T12:05:20.897584 #94236] DEBUG -- :   [1m[35mSQL (0.4ms)[0m  INSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)  [["file_name", "images/breaking_through_by_juliedillon-d5dq2j8.jpg"], ["height", 200], ["mean_color", 2901399521], ["meta_data", nil], ["quality", nil], ["width", 145]]
+D, [2012-09-05T12:05:20.906469 #94236] DEBUG -- :   [1m[36m (8.6ms)[0m  [1mcommit transaction[0m
+D, [2012-09-05T12:05:20.997590 #94236] DEBUG -- :   [1m[35m (0.1ms)[0m  begin transaction
+D, [2012-09-05T12:05:20.998591 #94236] DEBUG -- :   [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)[0m  [["file_name", "images/la_fortuna_by_harlequinromantique-d5dq6sg.jpg"], ["height", 200], ["mean_color", 2705877703], ["meta_data", nil], ["quality", nil], ["width", 221]]
+D, [2012-09-05T12:05:21.001125 #94236] DEBUG -- :   [1m[35m (2.2ms)[0m  commit transaction
+D, [2012-09-05T12:05:21.104448 #94236] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+D, [2012-09-05T12:05:21.105474 #94236] DEBUG -- :   [1m[35mSQL (0.3ms)[0m  INSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)  [["file_name", "images/grand_arabia_eye_makeup_by_desert_winds-d5dqlc8.jpg"], ["height", 177], ["mean_color", 2707588915], ["meta_data", nil], ["quality", nil], ["width", 300]]
+D, [2012-09-05T12:05:21.109180 #94236] DEBUG -- :   [1m[36m (3.4ms)[0m  [1mcommit transaction[0m
+D, [2012-09-05T12:05:21.192942 #94236] DEBUG -- :   [1m[35m (0.1ms)[0m  begin transaction
+D, [2012-09-05T12:05:21.194631 #94236] DEBUG -- :   [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)[0m  [["file_name", "images/paradise_by_kaiser_mony-d5dq034.png"], ["height", 200], ["mean_color", 2403236100], ["meta_data", nil], ["quality", nil], ["width", 161]]
+D, [2012-09-05T12:05:21.196845 #94236] DEBUG -- :   [1m[35m (1.8ms)[0m  commit transaction
+D, [2012-09-05T12:05:21.266330 #94236] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+D, [2012-09-05T12:05:21.267350 #94236] DEBUG -- :   [1m[35mSQL (0.3ms)[0m  INSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)  [["file_name", "images/e0d09955b6b978c3a4454a7fec8fb030-d5dq9h6.png"], ["height", 200], ["mean_color", 3169698759], ["meta_data", nil], ["quality", nil], ["width", 128]]
+D, [2012-09-05T12:05:21.269258 #94236] DEBUG -- :   [1m[36m (1.6ms)[0m  [1mcommit transaction[0m
+D, [2012-09-05T12:05:21.368333 #94236] DEBUG -- :   [1m[35m (0.1ms)[0m  begin transaction
+D, [2012-09-05T12:05:21.369405 #94236] DEBUG -- :   [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)[0m  [["file_name", "images/wayfaring_temple_by_one_vox-d5dqieu.jpg"], ["height", 200], ["mean_color", 1570575031], ["meta_data", nil], ["quality", nil], ["width", 274]]
+D, [2012-09-05T12:05:21.371596 #94236] DEBUG -- :   [1m[35m (2.0ms)[0m  commit transaction
+D, [2012-09-05T12:05:21.460907 #94236] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+D, [2012-09-05T12:05:21.462114 #94236] DEBUG -- :   [1m[35mSQL (0.3ms)[0m  INSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)  [["file_name", "images/lion_chalk_drawing_by_fallunleashed-d5dqhaw.jpg"], ["height", 200], ["mean_color", 2427761957], ["meta_data", nil], ["quality", nil], ["width", 267]]
+D, [2012-09-05T12:05:21.463913 #94236] DEBUG -- :   [1m[36m (1.6ms)[0m  [1mcommit transaction[0m
+D, [2012-09-05T12:05:21.576574 #94236] DEBUG -- :   [1m[35m (0.1ms)[0m  begin transaction
+D, [2012-09-05T12:05:21.577624 #94236] DEBUG -- :   [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)[0m  [["file_name", "images/chicago__source_code_ii_by_alierturk-d5dqiz8.jpg"], ["height", 200], ["mean_color", 1912146238], ["meta_data", nil], ["quality", nil], ["width", 299]]
+D, [2012-09-05T12:05:21.579860 #94236] DEBUG -- :   [1m[35m (2.0ms)[0m  commit transaction
+D, [2012-09-05T12:05:21.652519 #94236] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+D, [2012-09-05T12:05:21.653992 #94236] DEBUG -- :   [1m[35mSQL (0.5ms)[0m  INSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)  [["file_name", "images/more_than_proud_by_spirit_of_the_oasis-d5dq047.jpg"], ["height", 200], ["mean_color", 3285860625], ["meta_data", nil], ["quality", nil], ["width", 223]]
+D, [2012-09-05T12:05:21.655961 #94236] DEBUG -- :   [1m[36m (1.5ms)[0m  [1mcommit transaction[0m
+D, [2012-09-05T12:05:21.767771 #94236] DEBUG -- :   [1m[35m (0.1ms)[0m  begin transaction
+D, [2012-09-05T12:05:21.768865 #94236] DEBUG -- :   [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)[0m  [["file_name", "images/adventure_time___finn__s_golden_sword_by_johnsonarms-d5dqid6.jpg"], ["height", 195], ["mean_color", 1145276695], ["meta_data", nil], ["quality", nil], ["width", 299]]
+D, [2012-09-05T12:05:21.770968 #94236] DEBUG -- :   [1m[35m (1.9ms)[0m  commit transaction
+D, [2012-09-05T12:05:21.879749 #94236] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+D, [2012-09-05T12:05:21.880818 #94236] DEBUG -- :   [1m[35mSQL (0.3ms)[0m  INSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)  [["file_name", "images/pag_ibig_by_jaymyccah-d5dq7yc.jpg"], ["height", 192], ["mean_color", 3223389819], ["meta_data", nil], ["quality", nil], ["width", 300]]
+D, [2012-09-05T12:05:21.882533 #94236] DEBUG -- :   [1m[36m (1.5ms)[0m  [1mcommit transaction[0m
+D, [2012-09-05T12:05:21.957857 #94236] DEBUG -- :   [1m[35m (0.1ms)[0m  begin transaction
+D, [2012-09-05T12:05:21.959497 #94236] DEBUG -- :   [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)[0m  [["file_name", "images/i__ll_follow_the_sun_by_gilad-d5dqjnd.jpg"], ["height", 200], ["mean_color", 1363686291], ["meta_data", nil], ["quality", nil], ["width", 133]]
+D, [2012-09-05T12:05:21.961535 #94236] DEBUG -- :   [1m[35m (1.6ms)[0m  commit transaction
+D, [2012-09-05T12:05:22.062570 #94236] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+D, [2012-09-05T12:05:22.063616 #94236] DEBUG -- :   [1m[35mSQL (0.3ms)[0m  INSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)  [["file_name", "images/_hashtag_by_aquafeles-d5dqf2r.jpg"], ["height", 200], ["mean_color", 3499624417], ["meta_data", nil], ["quality", nil], ["width", 283]]
+D, [2012-09-05T12:05:22.065799 #94236] DEBUG -- :   [1m[36m (2.0ms)[0m  [1mcommit transaction[0m
+D, [2012-09-05T12:05:22.127356 #94236] DEBUG -- :   [1m[35m (0.1ms)[0m  begin transaction
+D, [2012-09-05T12:05:22.128408 #94236] DEBUG -- :   [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)[0m  [["file_name", "images/uso_saltues_you__by_riddle1-d5dqdjv.jpg"], ["height", 199], ["mean_color", 3594789578], ["meta_data", nil], ["quality", nil], ["width", 100]]
+D, [2012-09-05T12:05:22.130635 #94236] DEBUG -- :   [1m[35m (2.0ms)[0m  commit transaction
+D, [2012-09-05T12:05:22.199785 #94236] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+D, [2012-09-05T12:05:22.201427 #94236] DEBUG -- :   [1m[35mSQL (0.5ms)[0m  INSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)  [["file_name", "images/6b1a1c2f4b3d7095c869253703c87999-d5dq0yy.png"], ["height", 200], ["mean_color", 2939884546], ["meta_data", nil], ["quality", nil], ["width", 119]]
+D, [2012-09-05T12:05:22.203566 #94236] DEBUG -- :   [1m[36m (1.7ms)[0m  [1mcommit transaction[0m
+D, [2012-09-05T12:05:22.365446 #94236] DEBUG -- :   [1m[35m (0.1ms)[0m  begin transaction
+D, [2012-09-05T12:05:22.366455 #94236] DEBUG -- :   [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)[0m  [["file_name", "images/so_sophisticated_by_aspenglowe-d5dpzor.png"], ["height", 200], ["mean_color", 1953083369], ["meta_data", nil], ["quality", nil], ["width", 225]]
+D, [2012-09-05T12:05:22.368678 #94236] DEBUG -- :   [1m[35m (2.0ms)[0m  commit transaction
+D, [2012-09-05T12:05:22.452254 #94236] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+D, [2012-09-05T12:05:22.453271 #94236] DEBUG -- :   [1m[35mSQL (0.4ms)[0m  INSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)  [["file_name", "images/white_as_a_pearl_by_sexy_fantasy-d5dq4bi.jpg"], ["height", 200], ["mean_color", 2426819771], ["meta_data", nil], ["quality", nil], ["width", 233]]
+D, [2012-09-05T12:05:22.455024 #94236] DEBUG -- :   [1m[36m (1.5ms)[0m  [1mcommit transaction[0m
+D, [2012-09-05T12:05:22.529846 #94236] DEBUG -- :   [1m[35m (0.1ms)[0m  begin transaction
+D, [2012-09-05T12:05:22.531555 #94236] DEBUG -- :   [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)[0m  [["file_name", "images/on_a_steek_by_altalamatox-d5dql15.jpg"], ["height", 137], ["mean_color", 325054565], ["meta_data", nil], ["quality", nil], ["width", 299]]
+D, [2012-09-05T12:05:22.533570 #94236] DEBUG -- :   [1m[35m (1.6ms)[0m  commit transaction
+D, [2012-09-05T12:05:22.609990 #94236] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+D, [2012-09-05T12:05:22.611202 #94236] DEBUG -- :   [1m[35mSQL (0.4ms)[0m  INSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)  [["file_name", "images/healthy_levels_of_insanity_152_by_noxsatukeir-d5dq9nv.jpg"], ["height", 200], ["mean_color", 761946454], ["meta_data", nil], ["quality", nil], ["width", 286]]
+D, [2012-09-05T12:05:22.613106 #94236] DEBUG -- :   [1m[36m (1.6ms)[0m  [1mcommit transaction[0m
+D, [2012-09-05T12:05:22.680976 #94236] DEBUG -- :   [1m[35m (0.1ms)[0m  begin transaction
+D, [2012-09-05T12:05:22.681984 #94236] DEBUG -- :   [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)[0m  [["file_name", "images/utility_tunnel_door_42_by_5isalive-d5dqmky.jpg"], ["height", 199], ["mean_color", 982515645], ["meta_data", nil], ["quality", nil], ["width", 129]]
+D, [2012-09-05T12:05:22.683952 #94236] DEBUG -- :   [1m[35m (1.7ms)[0m  commit transaction
+D, [2012-09-05T12:05:22.750026 #94236] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+D, [2012-09-05T12:05:22.751095 #94236] DEBUG -- :   [1m[35mSQL (0.3ms)[0m  INSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)  [["file_name", "images/___hum__by_edheloth-d5dqhys.jpg"], ["height", 200], ["mean_color", 3411577636], ["meta_data", nil], ["quality", nil], ["width", 152]]
+D, [2012-09-05T12:05:22.753133 #94236] DEBUG -- :   [1m[36m (1.8ms)[0m  [1mcommit transaction[0m
+D, [2012-09-05T12:05:22.839648 #94236] DEBUG -- :   [1m[35m (0.1ms)[0m  begin transaction
+D, [2012-09-05T12:05:22.840721 #94236] DEBUG -- :   [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)[0m  [["file_name", "images/slenderman_tendrils_errywhere_by_digimitsu-d5dq0z6.jpg"], ["height", 200], ["mean_color", 1589901661], ["meta_data", nil], ["quality", nil], ["width", 240]]
+D, [2012-09-05T12:05:22.889478 #94236] DEBUG -- :   [1m[35m (1.5ms)[0m  commit transaction
+D, [2012-09-05T12:05:22.971087 #94236] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+D, [2012-09-05T12:05:22.972904 #94236] DEBUG -- :   [1m[35mSQL (0.5ms)[0m  INSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)  [["file_name", "images/receiptdoodles_ii__by_ten_days_till_sunday-d5dq2up.png"], ["height", 201], ["mean_color", 3893296510], ["meta_data", nil], ["quality", nil], ["width", 100]]
+D, [2012-09-05T12:05:22.976123 #94236] DEBUG -- :   [1m[36m (2.8ms)[0m  [1mcommit transaction[0m
+D, [2012-09-05T12:05:23.054524 #94236] DEBUG -- :   [1m[35m (0.1ms)[0m  begin transaction
+D, [2012-09-05T12:05:23.056307 #94236] DEBUG -- :   [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)[0m  [["file_name", "images/he_and_his_dog_by_lumurmu-d4yxm6w.jpg"], ["height", 150], ["mean_color", 2630671627], ["meta_data", nil], ["quality", nil], ["width", 106]]
+D, [2012-09-05T12:05:23.058557 #94236] DEBUG -- :   [1m[35m (1.8ms)[0m  commit transaction
+D, [2012-09-05T12:05:23.156475 #94236] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+D, [2012-09-05T12:05:23.157930 #94236] DEBUG -- :   [1m[35mSQL (0.4ms)[0m  INSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)  [["file_name", "images/speedway_racers_by_darkki86-d4vs8ha.png"], ["height", 84], ["mean_color", 909192302], ["meta_data", nil], ["quality", nil], ["width", 150]]
+D, [2012-09-05T12:05:23.191628 #94236] DEBUG -- :   [1m[36m (33.3ms)[0m  [1mcommit transaction[0m
+D, [2012-09-05T12:05:23.253751 #94236] DEBUG -- :   [1m[35m (0.1ms)[0m  begin transaction
+D, [2012-09-05T12:05:23.255094 #94236] DEBUG -- :   [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)[0m  [["file_name", "images/from_istria_with_love_iii_by_brunilde-d5bvudg.jpg"], ["height", 100], ["mean_color", 2386246163], ["meta_data", nil], ["quality", nil], ["width", 150]]
+D, [2012-09-05T12:05:23.257192 #94236] DEBUG -- :   [1m[35m (1.7ms)[0m  commit transaction
+D, [2012-09-05T12:05:23.332506 #94236] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+D, [2012-09-05T12:05:23.333981 #94236] DEBUG -- :   [1m[35mSQL (0.4ms)[0m  INSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)  [["file_name", "images/sarah_by_the_window_by_johnsilverfinearts-d36w2pf.jpg"], ["height", 119], ["mean_color", 2557815363], ["meta_data", nil], ["quality", nil], ["width", 150]]
+D, [2012-09-05T12:05:23.335586 #94236] DEBUG -- :   [1m[36m (1.2ms)[0m  [1mcommit transaction[0m
+D, [2012-09-05T12:05:23.395571 #94236] DEBUG -- :   [1m[35m (0.1ms)[0m  begin transaction
+D, [2012-09-05T12:05:23.396971 #94236] DEBUG -- :   [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)[0m  [["file_name", "images/null.png"], ["height", 125], ["mean_color", 2959894700], ["meta_data", nil], ["quality", nil], ["width", 150]]
+D, [2012-09-05T12:05:23.398789 #94236] DEBUG -- :   [1m[35m (1.5ms)[0m  commit transaction
+D, [2012-09-05T12:05:23.707052 #94236] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+D, [2012-09-05T12:05:23.708357 #94236] DEBUG -- :   [1m[35mSQL (0.4ms)[0m  INSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)  [["file_name", "images/cb86599fe0a41d429c5075a27cebfb5b-d5d5inr.gif"], ["height", 50], ["mean_color", 958937944], ["meta_data", nil], ["quality", nil], ["width", 50]]
+D, [2012-09-05T12:05:23.710238 #94236] DEBUG -- :   [1m[36m (1.6ms)[0m  [1mcommit transaction[0m
+D, [2012-09-05T12:05:23.771319 #94236] DEBUG -- :   [1m[35m (0.1ms)[0m  begin transaction
+D, [2012-09-05T12:05:23.772611 #94236] DEBUG -- :   [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)[0m  [["file_name", "images/the_last_living_rose_by_poorsouls-d5cvdnv.jpg"], ["height", 150], ["mean_color", 3703096688], ["meta_data", nil], ["quality", nil], ["width", 100]]
+D, [2012-09-05T12:05:23.774489 #94236] DEBUG -- :   [1m[35m (1.6ms)[0m  commit transaction
+D, [2012-09-05T12:05:23.851694 #94236] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+D, [2012-09-05T12:05:23.853076 #94236] DEBUG -- :   [1m[35mSQL (0.4ms)[0m  INSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)  [["file_name", "images/touch_me___by_unisexbluess-d5bvs6i.jpg"], ["height", 150], ["mean_color", 2540042761], ["meta_data", nil], ["quality", nil], ["width", 150]]
+D, [2012-09-05T12:05:23.855067 #94236] DEBUG -- :   [1m[36m (1.6ms)[0m  [1mcommit transaction[0m
+D, [2012-09-05T12:05:24.249257 #94236] DEBUG -- :   [1m[35m (0.1ms)[0m  begin transaction
+D, [2012-09-05T12:05:24.250827 #94236] DEBUG -- :   [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)[0m  [["file_name", "images/heart.gif"], ["height", 13], ["mean_color", 1409213783], ["meta_data", nil], ["quality", nil], ["width", 15]]
+D, [2012-09-05T12:05:24.253361 #94236] DEBUG -- :   [1m[35m (2.1ms)[0m  commit transaction
+D, [2012-09-05T12:05:24.343377 #94236] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+D, [2012-09-05T12:05:24.345004 #94236] DEBUG -- :   [1m[35mSQL (0.5ms)[0m  INSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)  [["file_name", "images/footer_dot.gif"], ["height", 4], ["mean_color", 3018731766], ["meta_data", nil], ["quality", nil], ["width", 4]]
+D, [2012-09-05T12:05:24.346763 #94236] DEBUG -- :   [1m[36m (1.3ms)[0m  [1mcommit transaction[0m
+D, [2012-09-05T12:05:26.252106 #94236] DEBUG -- :   [1m[35m (0.1ms)[0m  begin transaction
+D, [2012-09-05T12:05:26.253278 #94236] DEBUG -- :   [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)[0m  [["file_name", "images/figaro_twins_by_photia-d5crxht.jpg"], ["height", 150], ["mean_color", 2435182345], ["meta_data", nil], ["quality", nil], ["width", 116]]
+D, [2012-09-05T12:05:26.255530 #94236] DEBUG -- :   [1m[35m (1.9ms)[0m  commit transaction
+D, [2012-09-05T12:05:26.314126 #94236] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+D, [2012-09-05T12:05:26.315281 #94236] DEBUG -- :   [1m[35mSQL (0.4ms)[0m  INSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)  [["file_name", "images/stay_by_my_side_by_junay-d5a6eoy.jpg"], ["height", 79], ["mean_color", 2470959783], ["meta_data", nil], ["quality", nil], ["width", 150]]
+D, [2012-09-05T12:05:26.317344 #94236] DEBUG -- :   [1m[36m (1.8ms)[0m  [1mcommit transaction[0m
+D, [2012-09-05T12:05:26.376505 #94236] DEBUG -- :   [1m[35m (0.1ms)[0m  begin transaction
+D, [2012-09-05T12:05:26.377576 #94236] DEBUG -- :   [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)[0m  [["file_name", "images/the_glance_by_william_oxer-d52tkom.jpg"], ["height", 150], ["mean_color", 2396932776], ["meta_data", nil], ["quality", nil], ["width", 107]]
+D, [2012-09-05T12:05:26.379589 #94236] DEBUG -- :   [1m[35m (1.8ms)[0m  commit transaction
+D, [2012-09-05T12:05:26.439811 #94236] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+D, [2012-09-05T12:05:26.440913 #94236] DEBUG -- :   [1m[35mSQL (0.3ms)[0m  INSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)  [["file_name", "images/new_canvas_drying_by_kristrappeniers-d3hsb58.jpg"], ["height", 113], ["mean_color", 2383247464], ["meta_data", nil], ["quality", nil], ["width", 150]]
+D, [2012-09-05T12:05:26.442848 #94236] DEBUG -- :   [1m[36m (1.6ms)[0m  [1mcommit transaction[0m
+D, [2012-09-05T12:05:26.560095 #94236] DEBUG -- :   [1m[35m (0.2ms)[0m  begin transaction
+D, [2012-09-05T12:05:26.562141 #94236] DEBUG -- :   [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)[0m  [["file_name", "images/paradise_by_flufflepot-d5cky4d.png"], ["height", 150], ["mean_color", 1547808737], ["meta_data", nil], ["quality", nil], ["width", 130]]
+D, [2012-09-05T12:05:26.564327 #94236] DEBUG -- :   [1m[35m (1.8ms)[0m  commit transaction
+D, [2012-09-05T12:05:26.695089 #94236] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+D, [2012-09-05T12:05:26.696453 #94236] DEBUG -- :   [1m[35mSQL (0.4ms)[0m  INSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)  [["file_name", "images/warhammer_40k_tribute__necron_warriors_and_imotekh_by_pierreloyvet-d5czgdr.jpg"], ["height", 150], ["mean_color", 421529937], ["meta_data", nil], ["quality", nil], ["width", 108]]
+D, [2012-09-05T12:05:26.698659 #94236] DEBUG -- :   [1m[36m (1.9ms)[0m  [1mcommit transaction[0m
+D, [2012-09-05T12:05:26.767759 #94236] DEBUG -- :   [1m[35m (0.1ms)[0m  begin transaction
+D, [2012-09-05T12:05:26.768952 #94236] DEBUG -- :   [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)[0m  [["file_name", "images/forgotten_beauty_of_history_by_macinecko-d47va0l.jpg"], ["height", 150], ["mean_color", 2659473157], ["meta_data", nil], ["quality", nil], ["width", 100]]
+D, [2012-09-05T12:05:26.771039 #94236] DEBUG -- :   [1m[35m (1.8ms)[0m  commit transaction
+D, [2012-09-05T12:05:29.043036 #94236] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+D, [2012-09-05T12:05:29.044173 #94236] DEBUG -- :   [1m[35mSQL (0.3ms)[0m  INSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)  [["file_name", "images/Guybrush_Pinup_by_Photia.jpg"], ["height", 100], ["mean_color", 2693023891], ["meta_data", nil], ["quality", nil], ["width", 150]]
+D, [2012-09-05T12:05:29.054969 #94236] DEBUG -- :   [1m[36m (10.5ms)[0m  [1mcommit transaction[0m
+D, [2012-09-05T12:05:29.116366 #94236] DEBUG -- :   [1m[35m (0.1ms)[0m  begin transaction
+D, [2012-09-05T12:05:29.117481 #94236] DEBUG -- :   [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)[0m  [["file_name", "images/Hellboy_Pinup_by_Photia.jpg"], ["height", 150], ["mean_color", 1130718680], ["meta_data", nil], ["quality", nil], ["width", 100]]
+D, [2012-09-05T12:05:29.119821 #94236] DEBUG -- :   [1m[35m (2.1ms)[0m  commit transaction
+D, [2012-09-05T12:05:29.181436 #94236] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+D, [2012-09-05T12:05:29.182446 #94236] DEBUG -- :   [1m[35mSQL (0.3ms)[0m  INSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)  [["file_name", "images/Doctor_Who_Pinup_by_Photia.jpg"], ["height", 100], ["mean_color", 2502361827], ["meta_data", nil], ["quality", nil], ["width", 150]]
+D, [2012-09-05T12:05:29.184205 #94236] DEBUG -- :   [1m[36m (1.5ms)[0m  [1mcommit transaction[0m
+D, [2012-09-05T12:05:29.245847 #94236] DEBUG -- :   [1m[35m (0.1ms)[0m  begin transaction
+D, [2012-09-05T12:05:29.246934 #94236] DEBUG -- :   [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)[0m  [["file_name", "images/Pillars_by_Photia.jpg"], ["height", 150], ["mean_color", 1795211996], ["meta_data", nil], ["quality", nil], ["width", 116]]
+D, [2012-09-05T12:05:29.248771 #94236] DEBUG -- :   [1m[35m (1.6ms)[0m  commit transaction
+D, [2012-09-05T12:05:29.313958 #94236] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+D, [2012-09-05T12:05:29.315104 #94236] DEBUG -- :   [1m[35mSQL (0.4ms)[0m  INSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)  [["file_name", "images/Self_Portrait_by_Photia.jpg"], ["height", 150], ["mean_color", 2139395081], ["meta_data", nil], ["quality", nil], ["width", 125]]
+D, [2012-09-05T12:05:29.316980 #94236] DEBUG -- :   [1m[36m (1.6ms)[0m  [1mcommit transaction[0m
+D, [2012-09-05T12:05:29.378848 #94236] DEBUG -- :   [1m[35m (0.1ms)[0m  begin transaction
+D, [2012-09-05T12:05:29.380059 #94236] DEBUG -- :   [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)[0m  [["file_name", "images/Taryn_by_Photia.jpg"], ["height", 150], ["mean_color", 2184133583], ["meta_data", nil], ["quality", nil], ["width", 114]]
+D, [2012-09-05T12:05:29.384581 #94236] DEBUG -- :   [1m[35m (4.2ms)[0m  commit transaction
+D, [2012-09-05T12:05:30.184189 #94236] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+D, [2012-09-05T12:05:30.185532 #94236] DEBUG -- :   [1m[35mSQL (0.3ms)[0m  INSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)  [["file_name", "images/figaro_twins_by_photia-d5crxht.jpg"], ["height", 1017], ["mean_color", 2427903836], ["meta_data", nil], ["quality", nil], ["width", 786]]
+D, [2012-09-05T12:05:30.187528 #94236] DEBUG -- :   [1m[36m (1.7ms)[0m  [1mcommit transaction[0m
+D, [2012-09-05T12:05:30.978065 #94236] DEBUG -- :   [1m[35m (0.1ms)[0m  begin transaction
+D, [2012-09-05T12:05:30.979370 #94236] DEBUG -- :   [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)[0m  [["file_name", "images/figaro_twins_by_photia-d5crxht.jpg"], ["height", 1165], ["mean_color", 2428766798], ["meta_data", nil], ["quality", nil], ["width", 900]]
+D, [2012-09-05T12:05:30.981886 #94236] DEBUG -- :   [1m[35m (2.2ms)[0m  commit transaction
+D, [2012-09-05T12:05:31.132188 #94236] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+D, [2012-09-05T12:05:31.133397 #94236] DEBUG -- :   [1m[35mSQL (0.3ms)[0m  INSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)  [["file_name", "images/neutral-x.gif"], ["height", 15], ["mean_color", 2198830129], ["meta_data", nil], ["quality", nil], ["width", 15]]
+D, [2012-09-05T12:05:31.135474 #94236] DEBUG -- :   [1m[36m (1.8ms)[0m  [1mcommit transaction[0m
+D, [2012-09-05T12:05:31.177654 #94236] DEBUG -- :   [1m[35m (0.1ms)[0m  begin transaction
+D, [2012-09-05T12:05:31.178702 #94236] DEBUG -- :   [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)[0m  [["file_name", "images/love.gif"], ["height", 16], ["mean_color", 570642739], ["meta_data", nil], ["quality", nil], ["width", 23]]
+D, [2012-09-05T12:05:31.180670 #94236] DEBUG -- :   [1m[35m (1.7ms)[0m  commit transaction
+D, [2012-09-05T12:05:31.219440 #94236] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+D, [2012-09-05T12:05:31.220745 #94236] DEBUG -- :   [1m[35mSQL (0.3ms)[0m  INSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)  [["file_name", "images/joy.gif"], ["height", 21], ["mean_color", 286663847], ["meta_data", nil], ["quality", nil], ["width", 29]]
+D, [2012-09-05T12:05:31.222889 #94236] DEBUG -- :   [1m[36m (1.9ms)[0m  [1mcommit transaction[0m
+D, [2012-09-05T12:05:31.261706 #94236] DEBUG -- :   [1m[35m (0.1ms)[0m  begin transaction
+D, [2012-09-05T12:05:31.262981 #94236] DEBUG -- :   [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)[0m  [["file_name", "images/surprise.gif"], ["height", 20], ["mean_color", 2422121466], ["meta_data", nil], ["quality", nil], ["width", 15]]
+D, [2012-09-05T12:05:31.265196 #94236] DEBUG -- :   [1m[35m (1.9ms)[0m  commit transaction
+D, [2012-09-05T12:05:31.305575 #94236] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+D, [2012-09-05T12:05:31.306592 #94236] DEBUG -- :   [1m[35mSQL (0.3ms)[0m  INSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)  [["file_name", "images/anger.gif"], ["height", 21], ["mean_color", 777641943], ["meta_data", nil], ["quality", nil], ["width", 21]]
+D, [2012-09-05T12:05:31.308222 #94236] DEBUG -- :   [1m[36m (1.4ms)[0m  [1mcommit transaction[0m
+D, [2012-09-05T12:05:31.357978 #94236] DEBUG -- :   [1m[35m (0.1ms)[0m  begin transaction
+D, [2012-09-05T12:05:31.359073 #94236] DEBUG -- :   [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)[0m  [["file_name", "images/sadness.gif"], ["height", 15], ["mean_color", 1131438947], ["meta_data", nil], ["quality", nil], ["width", 17]]
+D, [2012-09-05T12:05:31.361241 #94236] DEBUG -- :   [1m[35m (1.9ms)[0m  commit transaction
+D, [2012-09-05T12:05:31.410989 #94236] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+D, [2012-09-05T12:05:31.412405 #94236] DEBUG -- :   [1m[35mSQL (0.4ms)[0m  INSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)  [["file_name", "images/fear.gif"], ["height", 18], ["mean_color", 951997424], ["meta_data", nil], ["quality", nil], ["width", 18]]
+D, [2012-09-05T12:05:31.414379 #94236] DEBUG -- :   [1m[36m (1.6ms)[0m  [1mcommit transaction[0m
+D, [2012-09-05T12:05:31.458179 #94236] DEBUG -- :   [1m[35m (0.1ms)[0m  begin transaction
+D, [2012-09-05T12:05:31.459668 #94236] DEBUG -- :   [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)[0m  [["file_name", "images/neutral.gif"], ["height", 20], ["mean_color", 2574126665], ["meta_data", nil], ["quality", nil], ["width", 25]]
+D, [2012-09-05T12:05:31.461229 #94236] DEBUG -- :   [1m[35m (1.2ms)[0m  commit transaction
+D, [2012-09-05T12:05:31.509312 #94236] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+D, [2012-09-05T12:05:31.510303 #94236] DEBUG -- :   [1m[35mSQL (0.3ms)[0m  INSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)  [["file_name", "images/nagymarci.gif"], ["height", 50], ["mean_color", 1988396046], ["meta_data", nil], ["quality", nil], ["width", 50]]
+D, [2012-09-05T12:05:31.512416 #94236] DEBUG -- :   [1m[36m (1.8ms)[0m  [1mcommit transaction[0m
+D, [2012-09-05T12:05:31.804970 #94236] DEBUG -- :   [1m[35m (0.1ms)[0m  begin transaction
+D, [2012-09-05T12:05:31.806941 #94236] DEBUG -- :   [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)[0m  [["file_name", "images/biggrin.gif"], ["height", 15], ["mean_color", 1768189723], ["meta_data", nil], ["quality", nil], ["width", 15]]
+D, [2012-09-05T12:05:31.809002 #94236] DEBUG -- :   [1m[35m (1.6ms)[0m  commit transaction
+D, [2012-09-05T12:05:31.987618 #94236] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+D, [2012-09-05T12:05:31.988924 #94236] DEBUG -- :   [1m[35mSQL (0.3ms)[0m  INSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)  [["file_name", "images/mouse_guard__pathfinders_by_kanthara-d3hrqs0.jpg"], ["height", 94], ["mean_color", 2483417305], ["meta_data", nil], ["quality", nil], ["width", 150]]
+D, [2012-09-05T12:05:31.991158 #94236] DEBUG -- :   [1m[36m (2.0ms)[0m  [1mcommit transaction[0m
+D, [2012-09-05T12:05:32.056277 #94236] DEBUG -- :   [1m[35m (0.1ms)[0m  begin transaction
+D, [2012-09-05T12:05:32.057986 #94236] DEBUG -- :   [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)[0m  [["file_name", "images/hollow_herds_of_molten_berms_by_phixotography-d55a6s1.jpg"], ["height", 146], ["mean_color", 589761698], ["meta_data", nil], ["quality", nil], ["width", 150]]
+D, [2012-09-05T12:05:32.060192 #94236] DEBUG -- :   [1m[35m (1.8ms)[0m  commit transaction
+D, [2012-09-05T12:05:32.115823 #94236] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+D, [2012-09-05T12:05:32.116853 #94236] DEBUG -- :   [1m[35mSQL (0.3ms)[0m  INSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)  [["file_name", "images/6d28ef2715b071d892037de3223264f6-d4rj5mv.jpg"], ["height", 100], ["mean_color", 1018232437], ["meta_data", nil], ["quality", nil], ["width", 150]]
+D, [2012-09-05T12:05:32.119078 #94236] DEBUG -- :   [1m[36m (2.0ms)[0m  [1mcommit transaction[0m
+D, [2012-09-05T12:05:32.181348 #94236] DEBUG -- :   [1m[35m (0.1ms)[0m  begin transaction
+D, [2012-09-05T12:05:32.182554 #94236] DEBUG -- :   [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)[0m  [["file_name", "images/dragonfly_by_catswire-d4rwsun.jpg"], ["height", 150], ["mean_color", 3322339604], ["meta_data", nil], ["quality", nil], ["width", 147]]
+D, [2012-09-05T12:05:32.184598D, [2012-09-05T12:12:59.039749 #94993] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+D, [2012-09-05T12:12:59.044218 #94993] DEBUG -- :   [1m[35mSQL (2.9ms)[0m  INSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)  [["file_name", "images/default.gif"], ["height", 50], ["mean_color", 563076508], ["meta_data", nil], ["quality", nil], ["width", 50]]
+D, [2012-09-05T12:12:59.045797 #94993] DEBUG -- :   [1m[36m (1.2ms)[0m  [1mcommit transaction[0m
+D, [2012-09-05T12:12:59.105913 #94993] DEBUG -- :   [1m[35m (0.1ms)[0m  begin transaction
+D, [2012-09-05T12:12:59.107216 #94993] DEBUG -- :   [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)[0m  [["file_name", "images/logo.png"], ["height", 42], ["mean_color", 533168370], ["meta_data", nil], ["quality", nil], ["width", 125]]
+D, [2012-09-05T12:12:59.109052 #94993] DEBUG -- :   [1m[35m (1.5ms)[0m  commit transaction
+D, [2012-09-05T12:12:59.155265 #94993] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+D, [2012-09-05T12:12:59.156426 #94993] DEBUG -- :   [1m[35mSQL (0.4ms)[0m  INSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)  [["file_name", "images/radmadright.png"], ["height", 11], ["mean_color", 2176949527], ["meta_data", nil], ["quality", nil], ["width", 11]]
+D, [2012-09-05T12:12:59.158277 #94993] DEBUG -- :   [1m[36m (1.6ms)[0m  [1mcommit transaction[0m
+D, [2012-09-05T12:12:59.290713 #94993] DEBUG -- :   [1m[35m (0.1ms)[0m  begin transaction
+D, [2012-09-05T12:12:59.291778 #94993] DEBUG -- :   [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)[0m  [["file_name", "images/dark_notes_by_dementeddiva23-d5dqdao.jpg"], ["height", 200], ["mean_color", 1049912163], ["meta_data", nil], ["quality", nil], ["width", 298]]
+D, [2012-09-05T12:12:59.294135 #94993] DEBUG -- :   [1m[35m (2.1ms)[0m  commit transaction
+D, [2012-09-05T12:12:59.374148 #94993] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+D, [2012-09-05T12:12:59.375194 #94993] DEBUG -- :   [1m[35mSQL (0.3ms)[0m  INSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)  [["file_name", "images/breaking_through_by_juliedillon-d5dq2j8.jpg"], ["height", 200], ["mean_color", 2901399521], ["meta_data", nil], ["quality", nil], ["width", 145]]
+D, [2012-09-05T12:12:59.377356 #94993] DEBUG -- :   [1m[36m (1.9ms)[0m  [1mcommit transaction[0m
+D, [2012-09-05T12:12:59.470199 #94993] DEBUG -- :   [1m[35m (0.1ms)[0m  begin transaction
+D, [2012-09-05T12:12:59.471189 #94993] DEBUG -- :   [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)[0m  [["file_name", "images/la_fortuna_by_harlequinromantique-d5dq6sg.jpg"], ["height", 200], ["mean_color", 2705877703], ["meta_data", nil], ["quality", nil], ["width", 221]]
+D, [2012-09-05T12:12:59.473171 #94993] DEBUG -- :   [1m[35m (1.7ms)[0m  commit transaction
+D, [2012-09-05T12:12:59.574815 #94993] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+D, [2012-09-05T12:12:59.575820 #94993] DEBUG -- :   [1m[35mSQL (0.3ms)[0m  INSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)  [["file_name", "images/grand_arabia_eye_makeup_by_desert_winds-d5dqlc8.jpg"], ["height", 177], ["mean_color", 2707588915], ["meta_data", nil], ["quality", nil], ["width", 300]]
+D, [2012-09-05T12:12:59.577987 #94993] DEBUG -- :   [1m[36m (1.9ms)[0m  [1mcommit transaction[0m
+D, [2012-09-05T12:12:59.648906 #94993] DEBUG -- :   [1m[35m (0.1ms)[0m  begin transaction
+D, [2012-09-05T12:12:59.649950 #94993] DEBUG -- :   [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)[0m  [["file_name", "images/e0d09955b6b978c3a4454a7fec8fb030-d5dq9h6.png"], ["height", 200], ["mean_color", 3169698759], ["meta_data", nil], ["quality", nil], ["width", 128]]
+D, [2012-09-05T12:12:59.652650 #94993] DEBUG -- :   [1m[35m (2.4ms)[0m  commit transaction
+D, [2012-09-05T12:12:59.751371 #94993] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+D, [2012-09-05T12:12:59.752345 #94993] DEBUG -- :   [1m[35mSQL (0.3ms)[0m  INSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)  [["file_name", "images/wayfaring_temple_by_one_vox-d5dqieu.jpg"], ["height", 200], ["mean_color", 1570575031], ["meta_data", nil], ["quality", nil], ["width", 274]]
+D, [2012-09-05T12:12:59.754146 #94993] DEBUG -- :   [1m[36m (1.6ms)[0m  [1mcommit transaction[0m
+D, [2012-09-05T12:12:59.847799 #94993] DEBUG -- :   [1m[35m (0.1ms)[0m  begin transaction
+D, [2012-09-05T12:12:59.848784 #94993] DEBUG -- :   [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)[0m  [["file_name", "images/pag_ibig_by_jaymyccah-d5dq7yc.jpg"], ["height", 192], ["mean_color", 3223389819], ["meta_data", nil], ["quality", nil], ["width", 300]]
+D, [2012-09-05T12:12:59.850875 #94993] DEBUG -- :   [1m[35m (1.8ms)[0m  commit transaction
+D, [2012-09-05T12:12:59.945843 #94993] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+D, [2012-09-05T12:12:59.946916 #94993] DEBUG -- :   [1m[35mSQL (0.3ms)[0m  INSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)  [["file_name", "images/lion_chalk_drawing_by_fallunleashed-d5dqhaw.jpg"], ["height", 200], ["mean_color", 2427761957], ["meta_data", nil], ["quality", nil], ["width", 267]]
+D, [2012-09-05T12:12:59.949008 #94993] DEBUG -- :   [1m[36m (1.8ms)[0m  [1mcommit transaction[0m
+D, [2012-09-05T12:13:00.058491 #94993] DEBUG -- :   [1m[35m (0.1ms)[0m  begin transaction
+D, [2012-09-05T12:13:00.059473 #94993] DEBUG -- :   [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)[0m  [["file_name", "images/chicago__source_code_ii_by_alierturk-d5dqiz8.jpg"], ["height", 200], ["mean_color", 1912146238], ["meta_data", nil], ["quality", nil], ["width", 299]]
+D, [2012-09-05T12:13:00.061731 #94993] DEBUG -- :   [1m[35m (2.0ms)[0m  commit transaction
+D, [2012-09-05T12:13:00.185345 #94993] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+D, [2012-09-05T12:13:00.186910 #94993] DEBUG -- :   [1m[35mSQL (0.4ms)[0m  INSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)  [["file_name", "images/adventure_time___finn__s_golden_sword_by_johnsonarms-d5dqid6.jpg"], ["height", 195], ["mean_color", 1145276695], ["meta_data", nil], ["quality", nil], ["width", 299]]
+D, [2012-09-05T12:13:00.189154 #94993] DEBUG -- :   [1m[36m (1.9ms)[0m  [1mcommit transaction[0m
+D, [2012-09-05T12:13:00.261868 #94993] DEBUG -- :   [1m[35m (0.1ms)[0m  begin transaction
+D, [2012-09-05T12:13:00.263007 #94993] DEBUG -- :   [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)[0m  [["file_name", "images/i__ll_follow_the_sun_by_gilad-d5dqjnd.jpg"], ["height", 200], ["mean_color", 1363686291], ["meta_data", nil], ["quality", nil], ["width", 133]]
+D, [2012-09-05T12:13:00.265173 #94993] DEBUG -- :   [1m[35m (1.7ms)[0m  commit transaction
+D, [2012-09-05T12:13:00.411389 #94993] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+D, [2012-09-05T12:13:00.413034 #94993] DEBUG -- :   [1m[35mSQL (0.5ms)[0m  INSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)  [["file_name", "images/_hashtag_by_aquafeles-d5dqf2r.jpg"], ["height", 200], ["mean_color", 3499624417], ["meta_data", nil], ["quality", nil], ["width", 283]]
+D, [2012-09-05T12:13:00.415650 #94993] DEBUG -- :   [1m[36m (2.1ms)[0m  [1mcommit transaction[0m
+D, [2012-09-05T12:13:00.483463 #94993] DEBUG -- :   [1m[35m (0.2ms)[0m  begin transaction
+D, [2012-09-05T12:13:00.484709 #94993] DEBUG -- :   [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)[0m  [["file_name", "images/uso_saltues_you__by_riddle1-d5dqdjv.jpg"], ["height", 199], ["mean_color", 3594789578], ["meta_data", nil], ["quality", nil], ["width", 100]]
+D, [2012-09-05T12:13:00.486561 #94993] DEBUG -- :   [1m[35m (1.5ms)[0m  commit transaction
+D, [2012-09-05T12:13:00.572103 #94993] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+D, [2012-09-05T12:13:00.573175 #94993] DEBUG -- :   [1m[35mSQL (0.3ms)[0m  INSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)  [["file_name", "images/healthy_levels_of_insanity_152_by_noxsatukeir-d5dq9nv.jpg"], ["height", 200], ["mean_color", 761946454], ["meta_data", nil], ["quality", nil], ["width", 286]]
+D, [2012-09-05T12:13:00.575301 #94993] DEBUG -- :   [1m[36m (1.8ms)[0m  [1mcommit transaction[0m
+D, [2012-09-05T12:13:00.644556 #94993] DEBUG -- :   [1m[35m (0.1ms)[0m  begin transaction
+D, [2012-09-05T12:13:00.645590 #94993] DEBUG -- :   [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)[0m  [["file_name", "images/6b1a1c2f4b3d7095c869253703c87999-d5dq0yy.png"], ["height", 200], ["mean_color", 2939884546], ["meta_data", nil], ["quality", nil], ["width", 119]]
+D, [2012-09-05T12:13:00.647611 #94993] DEBUG -- :   [1m[35m (1.7ms)[0m  commit transaction
+D, [2012-09-05T12:13:00.730065 #94993] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+D, [2012-09-05T12:13:00.731257 #94993] DEBUG -- :   [1m[35mSQL (0.4ms)[0m  INSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)  [["file_name", "images/white_as_a_pearl_by_sexy_fantasy-d5dq4bi.jpg"], ["height", 200], ["mean_color", 2426819771], ["meta_data", nil], ["quality", nil], ["width", 233]]
+D, [2012-09-05T12:13:00.733337 #94993] DEBUG -- :   [1m[36m (1.8ms)[0m  [1mcommit transaction[0m
+D, [2012-09-05T12:13:00.807322 #94993] DEBUG -- :   [1m[35m (0.1ms)[0m  begin transaction
+D, [2012-09-05T12:13:00.808412 #94993] DEBUG -- :   [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)[0m  [["file_name", "images/on_a_steek_by_altalamatox-d5dql15.jpg"], ["height", 137], ["mean_color", 325054565], ["meta_data", nil], ["quality", nil], ["width", 299]]
+D, [2012-09-05T12:13:00.810426 #94993] DEBUG -- :   [1m[35m (1.7ms)[0m  commit transaction
+D, [2012-09-05T12:13:00.906323 #94993] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+D, [2012-09-05T12:13:00.907346 #94993] DEBUG -- :   [1m[35mSQL (0.3ms)[0m  INSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)  [["file_name", "images/utility_tunnel_door_42_by_5isalive-d5dqmky.jpg"], ["height", 199], ["mean_color", 982515645], ["meta_data", nil], ["quality", nil], ["width", 129]]
+D, [2012-09-05T12:13:00.909501 #94993] DEBUG -- :   [1m[36m (1.9ms)[0m  [1mcommit transaction[0m
+D, [2012-09-05T12:13:00.974502 #94993] DEBUG -- :   [1m[35m (0.1ms)[0m  begin transaction
+D, [2012-09-05T12:13:00.975476 #94993] DEBUG -- :   [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)[0m  [["file_name", "images/___hum__by_edheloth-d5dqhys.jpg"], ["height", 200], ["mean_color", 3411577636], ["meta_data", nil], ["quality", nil], ["width", 152]]
+D, [2012-09-05T12:13:00.977310 #94993] DEBUG -- :   [1m[35m (1.6ms)[0m  commit transaction
+D, [2012-09-05T12:13:01.060758 #94993] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+D, [2012-09-05T12:13:01.061809 #94993] DEBUG -- :   [1m[35mSQL (0.3ms)[0m  INSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)  [["file_name", "images/slenderman_tendrils_errywhere_by_digimitsu-d5dq0z6.jpg"], ["height", 200], ["mean_color", 1589901661], ["meta_data", nil], ["quality", nil], ["width", 240]]
+D, [2012-09-05T12:13:01.063642 #94993] DEBUG -- :   [1m[36m (1.6ms)[0m  [1mcommit transaction[0m
+D, [2012-09-05T12:13:01.122302 #94993] DEBUG -- :   [1m[35m (0.1ms)[0m  begin transaction
+D, [2012-09-05T12:13:01.123389 #94993] DEBUG -- :   [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)[0m  [["file_name", "images/receiptdoodles_ii__by_ten_days_till_sunday-d5dq2up.png"], ["height", 201], ["mean_color", 3893296510], ["meta_data", nil], ["quality", nil], ["width", 100]]
+D, [2012-09-05T12:13:01.125532 #94993] DEBUG -- :   [1m[35m (1.9ms)[0m  commit transaction
+D, [2012-09-05T12:13:01.205832 #94993] DEBUG -- :   [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+D, [2012-09-05T12:13:01.207063 #94993] DEBUG -- :   [1m[35mSQL (0.3ms)[0m  INSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)  [["file_name", "images/september_by_lieveheersbeestje-d5dqu2i.jpg"], ["height", 200], ["mean_color", 1446124216], ["meta_data", nil], ["quality", nil], ["width", 250]]
+D, [2012-09-05T12:13:01.209101 #94993] DEBUG -- :   [1m[36m (1.8ms)[0m  [1mcommit transaction[0m
+D, [2012-09-05T12:13:01.318426 #94993] DEBUG -- :   [1m[35m (0.1ms)[0m  begin transaction
+D, [2012-09-05T12:13:01.319431 #94993] DEBUG -- :   [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)[0m  [["file_name", "images/hold_the_line_by_zoranphoto-d5dqwdo.jpg"], ["height", 200], ["mean_color", 1496795366], ["meta_data", nil], ["quality", nil], ["width", 267]]
+D, [2012-09-05T12:13:01.321605 #94993] DEBUG -- :   [1m[35m (1.9ms)[0m  commit transaction
+D, [2012-09-05T12:13:01.388204 #94993] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+D, [2012-09-05T12:13:01.389231 #94993] DEBUG -- :   [1m[35mSQL (0.4ms)[0m  INSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)  [["file_name", "images/with_me__by_saku666-d5dq3q9.jpg"], ["height", 200], ["mean_color", 2053116955], ["meta_data", nil], ["quality", nil], ["width", 141]]
+D, [2012-09-05T12:13:01.391296 #94993] DEBUG -- :   [1m[36m (1.8ms)[0m  [1mcommit transaction[0m
+D, [2012-09-05T12:13:01.451568 #94993] DEBUG -- :   [1m[35m (0.1ms)[0m  begin transaction
+D, [2012-09-05T12:13:01.452556 #94993] DEBUG -- :   [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)[0m  [["file_name", "images/null.png"], ["height", 125], ["mean_color", 2959894700], ["meta_data", nil], ["quality", nil], ["width", 150]]
+D, [2012-09-05T12:13:01.454720 #94993] DEBUG -- :   [1m[35m (1.8ms)[0m  commit transaction
+D, [2012-09-05T12:13:01.839772 #94993] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+D, [2012-09-05T12:13:01.840777 #94993] DEBUG -- :   [1m[35mSQL (0.3ms)[0m  INSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)  [["file_name", "images/sarah_by_the_window_by_johnsilverfinearts-d36w2pf.jpg"], ["height", 119], ["mean_color", 2557815363], ["meta_data", nil], ["quality", nil], ["width", 150]]
+D, [2012-09-05T12:13:01.846143 #94993] DEBUG -- :   [1m[36m (5.1ms)[0m  [1mcommit transaction[0m
+D, [2012-09-05T12:13:01.907934 #94993] DEBUG -- :   [1m[35m (0.1ms)[0m  begin transaction
+D, [2012-09-05T12:13:01.909140 #94993] DEBUG -- :   [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)[0m  [["file_name", "images/from_istria_with_love_iii_by_brunilde-d5bvudg.jpg"], ["height", 100], ["mean_color", 2386246163], ["meta_data", nil], ["quality", nil], ["width", 150]]
+D, [2012-09-05T12:13:01.911268 #94993] DEBUG -- :   [1m[35m (1.9ms)[0m  commit transaction
+D, [2012-09-05T12:13:01.982296 #94993] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+D, [2012-09-05T12:13:01.983332 #94993] DEBUG -- :   [1m[35mSQL (0.3ms)[0m  INSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)  [["file_name", "images/phantasmagorie_by_phoenixstamatis-d4rtdrb.jpg"], ["height", 150], ["mean_color", 1886766103], ["meta_data", nil], ["quality", nil], ["width", 150]]
+D, [2012-09-05T12:13:01.985595 #94993] DEBUG -- :   [1m[36m (2.0ms)[0m  [1mcommit transaction[0m
+D, [2012-09-05T12:13:02.047710 #94993] DEBUG -- :   [1m[35m (0.1ms)[0m  begin transaction
+D, [2012-09-05T12:13:02.049313 #94993] DEBUG -- :   [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)[0m  [["file_name", "images/scratchboard_scottie_by_darkfoxdemonx-d4xvzck.jpg"], ["height", 150], ["mean_color", 979724068], ["meta_data", nil], ["quality", nil], ["width", 112]]
+D, [2012-09-05T12:13:02.051331 #94993] DEBUG -- :   [1m[35m (1.6ms)[0m  commit transaction
+D, [2012-09-05T12:13:02.112537 #94993] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+D, [2012-09-05T12:13:02.113546 #94993] DEBUG -- :   [1m[35mSQL (0.3ms)[0m  INSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)  [["file_name", "images/speedway_racers_by_darkki86-d4vs8ha.png"], ["height", 84], ["mean_color", 909192302], ["meta_data", nil], ["quality", nil], ["width", 150]]
+D, [2012-09-05T12:13:02.115705 #94993] DEBUG -- :   [1m[36m (1.9ms)[0m  [1mcommit transaction[0m
+D, [2012-09-05T12:13:02.173195 #94993] DEBUG -- :   [1m[35m (0.1ms)[0m  begin transaction
+D, [2012-09-05T12:13:02.174391 #94993] DEBUG -- :   [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)[0m  [["file_name", "images/cinderella__s_dream_hand_cut_papercut_by_ladysilver2267-d4tzwg6.png"], ["height", 120], ["mean_color", 1657447131], ["meta_data", nil], ["quality", nil], ["width", 150]]
+D, [2012-09-05T12:13:02.176166 #94993] DEBUG -- :   [1m[35m (1.5ms)[0m  commit transaction
+D, [2012-09-05T12:13:02.240287 #94993] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+D, [2012-09-05T12:13:02.258064 #94993] DEBUG -- :   [1m[35mSQL (16.9ms)[0m  INSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)  [["file_name", "images/vanity_by_kismetvexel-d4zy1et.jpg"], ["height", 94], ["mean_color", 2678625526], ["meta_data", nil], ["quality", nil], ["width", 150]]
+D, [2012-09-05T12:13:02.332881 #94993] DEBUG -- :   [1m[36m (74.5ms)[0m  [1mcommit transaction[0m
+D, [2012-09-05T12:13:02.576378 #94993] DEBUG -- :   [1m[35m (0.1ms)[0m  begin transaction
+D, [2012-09-05T12:13:02.577453 #94993] DEBUG -- :   [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)[0m  [["file_name", "images/heart.gif"], ["height", 13], ["mean_color", 1409213783], ["meta_data", nil], ["quality", nil], ["width", 15]]
+D, [2012-09-05T12:13:02.579079 #94993] DEBUG -- :   [1m[35m (1.4ms)[0m  commit transaction
+D, [2012-09-05T12:13:02.652011 #94993] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+D, [2012-09-05T12:13:02.653152 #94993] DEBUG -- :   [1m[35mSQL (0.4ms)[0m  INSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)  [["file_name", "images/footer_dot.gif"], ["height", 4], ["mean_color", 3018731766], ["meta_data", nil], ["quality", nil], ["width", 4]]
+D, [2012-09-05T12:13:02.655198 #94993] DEBUG -- :   [1m[36m (1.6ms)[0m  [1mcommit transaction[0m
+D, [2012-09-05T12:13:04.369568 #94993] DEBUG -- :   [1m[35m (0.2ms)[0m  begin transaction
+D, [2012-09-05T12:13:04.370851 #94993] DEBUG -- :   [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)[0m  [["file_name", "images/he_and_his_dog_by_lumurmu-d4yxm6w.jpg"], ["height", 150], ["mean_color", 2630671627], ["meta_data", nil], ["quality", nil], ["width", 106]]
+D, [2012-09-05T12:13:04.372508 #94993] DEBUG -- :   [1m[35m (1.3ms)[0m  commit transaction
+D, [2012-09-05T12:13:04.432986 #94993] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+D, [2012-09-05T12:13:04.434224 #94993] DEBUG -- :   [1m[35mSQL (0.3ms)[0m  INSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)  [["file_name", "images/forgotten_beauty_of_history_by_macinecko-d47va0l.jpg"], ["height", 150], ["mean_color", 2659473157], ["meta_data", nil], ["quality", nil], ["width", 100]]
+D, [2012-09-05T12:13:04.436470 #94993] DEBUG -- :   [1m[36m (2.0ms)[0m  [1mcommit transaction[0m
+D, [2012-09-05T12:13:04.497605 #94993] DEBUG -- :   [1m[35m (0.1ms)[0m  begin transaction
+D, [2012-09-05T12:13:04.498724 #94993] DEBUG -- :   [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)[0m  [["file_name", "images/meet_you_by_phiebialoffecy-d5db8ql.jpg"], ["height", 150], ["mean_color", 2787813853], ["meta_data", nil], ["quality", nil], ["width", 104]]
+D, [2012-09-05T12:13:04.500717 #94993] DEBUG -- :   [1m[35m (1.7ms)[0m  commit transaction
+D, [2012-09-05T12:13:04.565608 #94993] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+D, [2012-09-05T12:13:04.566802 #94993] DEBUG -- :   [1m[35mSQL (0.3ms)[0m  INSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)  [["file_name", "images/gothic_romantic_stock_06_by_meetmeatthelake2nite-d54pdze.jpg"], ["height", 150], ["mean_color", 1735869155], ["meta_data", nil], ["quality", nil], ["width", 100]]
+D, [2012-09-05T12:13:04.568674 #94993] DEBUG -- :   [1m[36m (1.6ms)[0m  [1mcommit transaction[0m
+D, [2012-09-05T12:13:04.636486 #94993] DEBUG -- :   [1m[35m (0.1ms)[0m  begin transaction
+D, [2012-09-05T12:13:04.637552 #94993] DEBUG -- :   [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)[0m  [["file_name", "images/ts3_concept_art_by_artsammich-d3b5xe8.jpg"], ["height", 103], ["mean_color", 1297825873], ["meta_data", nil], ["quality", nil], ["width", 150]]
+D, [2012-09-05T12:13:04.639421 #94993] DEBUG -- :   [1m[35m (1.6ms)[0m  commit transaction
+D, [2012-09-05T12:13:06.731978 #94993] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+D, [2012-09-05T12:13:06.733713 #94993] DEBUG -- :   [1m[35mSQL (0.4ms)[0m  INSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)  [["file_name", "images/701f65bb060cb89c304a00d6471ad9eb-d4wol7f.jpg"], ["height", 80], ["mean_color", 2378427840], ["meta_data", nil], ["quality", nil], ["width", 150]]
+D, [2012-09-05T12:13:06.735611 #94993] DEBUG -- :   [1m[36m (1.6ms)[0m  [1mcommit transaction[0m
+D, [2012-09-05T12:13:06.968693 #94993] DEBUG -- :   [1m[35m (0.1ms)[0m  begin transaction
+D, [2012-09-05T12:13:06.970403 #94993] DEBUG -- :   [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)[0m  [["file_name", "images/about_pink_depths_by_lumurmu-d4wlzj2.jpg"], ["height", 113], ["mean_color", 3876861462], ["meta_data", nil], ["quality", nil], ["width", 150]]
+D, [2012-09-05T12:13:06.972369 #94993] DEBUG -- :   [1m[35m (1.5ms)[0m  commit transaction
+D, [2012-09-05T12:13:07.041159 #94993] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+D, [2012-09-05T12:13:07.042424 #94993] DEBUG -- :   [1m[35mSQL (0.4ms)[0m  INSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)  [["file_name", "images/every_saint_by_lumurmu-d4wd8o4.jpg"], ["height", 106], ["mean_color", 3427908250], ["meta_data", nil], ["quality", nil], ["width", 150]]
+D, [2012-09-05T12:13:07.044536 #94993] DEBUG -- :   [1m[36m (1.9ms)[0m  [1mcommit transaction[0m
+D, [2012-09-05T12:13:07.103273 #94993] DEBUG -- :   [1m[35m (0.1ms)[0m  begin transaction
+D, [2012-09-05T12:13:07.104487 #94993] DEBUG -- :   [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)[0m  [["file_name", "images/heart_for_saints_by_lumurmu-d4w9e3z.jpg"], ["height", 150], ["mean_color", 3626702955], ["meta_data", nil], ["quality", nil], ["width", 103]]
+D, [2012-09-05T12:13:07.106628 #94993] DEBUG -- :   [1m[35m (1.9ms)[0m  commit transaction
+D, [2012-09-05T12:13:07.173096 #94993] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+D, [2012-09-05T12:13:07.174111 #94993] DEBUG -- :   [1m[35mSQL (0.3ms)[0m  INSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)  [["file_name", "images/up_to_the_sky_by_lumurmu-d4w8m5k.jpg"], ["height", 138], ["mean_color", 3595794943], ["meta_data", nil], ["quality", nil], ["width", 150]]
+D, [2012-09-05T12:13:07.176301 #94993] DEBUG -- :   [1m[36m (1.9ms)[0m  [1mcommit transaction[0m
+D, [2012-09-05T12:13:07.247458 #94993] DEBUG -- :   [1m[35m (0.1ms)[0m  begin transaction
+D, [2012-09-05T12:13:07.249364 #94993] DEBUG -- :   [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)[0m  [["file_name", "images/inside_her_a_panda_lives_by_lumurmu-d4w59ci.jpg"], ["height", 150], ["mean_color", 2473109896], ["meta_data", nil], ["quality", nil], ["width", 103]]
+D, [2012-09-05T12:13:07.251331 #94993] DEBUG -- :   [1m[35m (1.6ms)[0m  commit transaction
+D, [2012-09-05T12:13:07.787333 #94993] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+D, [2012-09-05T12:13:07.788468 #94993] DEBUG -- :   [1m[35mSQL (0.3ms)[0m  INSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)  [["file_name", "images/he_and_his_dog_by_lumurmu-d4yxm6w.jpg"], ["height", 853], ["mean_color", 2641435721], ["meta_data", nil], ["quality", nil], ["width", 600]]
+D, [2012-09-05T12:13:07.790315 #94993] DEBUG -- :   [1m[36m (1.6ms)[0m  [1mcommit transaction[0m
+D, [2012-09-05T12:13:07.867765 #94993] DEBUG -- :   [1m[35m (0.1ms)[0m  begin transaction
+D, [2012-09-05T12:13:07.868953 #94993] DEBUG -- :   [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)[0m  [["file_name", "images/neutral-x.gif"], ["height", 15], ["mean_color", 2198830129], ["meta_data", nil], ["quality", nil], ["width", 15]]
+D, [2012-09-05T12:13:07.870678 #94993] DEBUG -- :   [1m[35m (1.5ms)[0m  commit transaction
+D, [2012-09-05T12:13:07.920037 #94993] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+D, [2012-09-05T12:13:07.921108 #94993] DEBUG -- :   [1m[35mSQL (0.3ms)[0m  INSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)  [["file_name", "images/love.gif"], ["height", 16], ["mean_color", 570642739], ["meta_data", nil], ["quality", nil], ["width", 23]]
+D, [2012-09-05T12:13:07.923161 #94993] DEBUG -- :   [1m[36m (1.7ms)[0m  [1mcommit transaction[0m
+D, [2012-09-05T12:13:07.962693 #94993] DEBUG -- :   [1m[35m (0.1ms)[0m  begin transaction
+D, [2012-09-05T12:13:07.963742 #94993] DEBUG -- :   [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)[0m  [["file_name", "images/joy.gif"], ["height", 21], ["mean_color", 286663847], ["meta_data", nil], ["quality", nil], ["width", 29]]
+D, [2012-09-05T12:13:07.965924 #94993] DEBUG -- :   [1m[35m (1.9ms)[0m  commit transaction
+D, [2012-09-05T12:13:08.006102 #94993] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+D, [2012-09-05T12:13:08.007217 #94993] DEBUG -- :   [1m[35mSQL (0.3ms)[0m  INSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)  [["file_name", "images/surprise.gif"], ["height", 20], ["mean_color", 2422121466], ["meta_data", nil], ["quality", nil], ["width", 15]]
+D, [2012-09-05T12:13:08.009005 #94993] DEBUG -- :   [1m[36m (1.5ms)[0m  [1mcommit transaction[0m
+D, [2012-09-05T12:13:08.060491 #94993] DEBUG -- :   [1m[35m (0.1ms)[0m  begin transaction
+D, [2012-09-05T12:13:08.061561 #94993] DEBUG -- :   [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)[0m  [["file_name", "images/anger.gif"], ["height", 21], ["mean_color", 777641943], ["meta_data", nil], ["quality", nil], ["width", 21]]
+D, [2012-09-05T12:13:08.063000 #94993] DEBUG -- :   [1m[35m (1.2ms)[0m  commit transaction
+D, [2012-09-05T12:13:08.114367 #94993] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+D, [2012-09-05T12:13:08.115516 #94993] DEBUG -- :   [1m[35mSQL (0.4ms)[0m  INSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)  [["file_name", "images/sadness.gif"], ["height", 15], ["mean_color", 1131438947], ["meta_data", nil], ["quality", nil], ["width", 17]]
+D, [2012-09-05T12:13:08.117298 #94993] DEBUG -- :   [1m[36m (1.5ms)[0m  [1mcommit transaction[0m
+D, [2012-09-05T12:13:08.167609 #94993] DEBUG -- :   [1m[35m (0.2ms)[0m  begin transaction
+D, [2012-09-05T12:13:08.169408 #94993] DEBUG -- :   [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)[0m  [["file_name", "images/fear.gif"], ["height", 18], ["mean_color", 951997424], ["meta_data", nil], ["quality", nil], ["width", 18]]
+D, [2012-09-05T12:13:08.171454 #94993] DEBUG -- :   [1m[35m (1.6ms)[0m  commit transaction
+D, [2012-09-05T12:13:08.208472 #94993] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+D, [2012-09-05T12:13:08.209558 #94993] DEBUG -- :   [1m[35mSQL (0.3ms)[0m  INSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)  [["file_name", "images/neutral.gif"], ["height", 20], ["mean_color", 2574126665], ["meta_data", nil], ["quality", nil], ["width", 25]]
+D, [2012-09-05T12:13:08.211655 #94993] DEBUG -- :   [1m[36m (1.8ms)[0m  [1mcommit transaction[0m
+D, [2012-09-05T12:13:08.370007 #94993] DEBUG -- :   [1m[35m (0.1ms)[0m  begin transaction
+D, [2012-09-05T12:13:08.371423 #94993] DEBUG -- :   [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)[0m  [["file_name", "images/biggrin.gif"], ["height", 15], ["mean_color", 1768189723], ["meta_data", nil], ["quality", nil], ["width", 15]]
+D, [2012-09-05T12:13:08.373534 #94993] DEBUG -- :   [1m[35m (1.8ms)[0m  commit transaction
+D, [2012-09-05T12:13:08.466569 #94993] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+D, [2012-09-05T12:13:08.468217 #94993] DEBUG -- :   [1m[35mSQL (0.5ms)[0m  INSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)  [["file_name", "images/frail.gif"], ["height", 15], ["mean_color", 1004995584], ["meta_data", nil], ["quality", nil], ["width", 17]]
+D, [2012-09-05T12:13:08.470286 #94993] DEBUG -- :   [1m[36m (1.6ms)[0m  [1mcommit transaction[0m
+D, [2012-09-05T12:13:08.570202 #94993] DEBUG -- :   [1m[35m (0.1ms)[0m  begin transaction
+D, [2012-09-05T12:13:08.571242 #94993] DEBUG -- :   [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)[0m  [["file_name", "images/the_last_living_rose_by_poorsouls-d5cvdnv.jpg"], ["height", 150], ["mean_color", 3703096688], ["meta_data", nil], ["quality", nil], ["width", 100]]
+D, [2012-09-05T12:13:08.573563 #94993] DEBUG -- :   [1m[35m (2.0ms)[0m  commit transaction
+D, [2012-09-05T12:13:08.636196 #94993] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+D, [2012-09-05T12:13:08.637247 #94993] DEBUG -- :   [1m[35mSQL (0.3ms)[0m  INSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)  [["file_name", "images/the_glance_by_william_oxer-d52tkom.jpg"], ["height", 150], ["mean_color", 2396932776], ["meta_data", nil], ["quality", nil], ["width", 107]]
+D, [2012-09-05T12:13:08.639274 #94993] DEBUG -- :   [1m[36m (1.8ms)[0m  [1mcommit transaction[0m
+D, [2012-09-05T12:13:08.703170 #94993] DEBUG -- :   [1m[35m (0.1ms)[0m  begin transaction
+D, [2012-09-05T12:13:08.704413 #94993] DEBUG -- :   [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)[0m  [["file_name", "images/freddie_mercury_plush_by_nadiagraphicplanet-d56v02s.jpg"], ["height", 150], ["mean_color", 1297454958], ["meta_data", nil], ["quality", nil], ["width", 120]]
+D, [2012-09-05T12:13:08.706332 #94993] DEBUG -- :   [1m[35m (1.6ms)[0m  commit transaction
+D, [2012-09-05T12:13:08.772744 #94993] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+D, [2012-09-05T12:13:08.773807 #94993] DEBUG -- :   [1m[35mSQL (0.4ms)[0m  INSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)  [["file_name", "images/6d28ef2715b071d892037de3223264f6-d4rj5mv.jpg"], ["height", 100], ["mean_color", 1018232437], ["meta_data", nil], ["quality", nil], ["width", 150]]
+D, [2012-09-05T12:13:08.775761 #94993] DEBUG -- :   [1m[36m (1.7ms)[0m  [1mcommit transaction[0m
+D, [2012-09-05T12:13:08.847220 #94993] DEBUG -- :   [1m[35m (0.1ms)[0m  begin transaction
+D, [2012-09-05T12:13:08.848266 #94993] DEBUG -- :   [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)[0m  [["file_name", "images/cb86599fe0a41d429c5075a27cebfb5b-d5d5inr.gif"], ["height", 50], ["mean_color", 958937944], ["meta_data", nil], ["quality", nil], ["width", 50]]
+D, [2012-09-05T12:13:08.850454 #94993] DEBUG -- :   [1m[35m (1.9ms)[0m  commit transaction
+D, [2012-09-05T12:13:08.914955 #94993] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+D, [2012-09-05T12:13:08.916031 #94993] DEBUG -- :   [1m[35mSQL (0.3ms)[0m  INSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)  [["file_name", "images/new_canvas_drying_by_kristrappeniers-d3hsb58.jpg"], ["height", 113], ["mean_color", 2383247464], ["meta_data", nil], ["quality", nil], ["width", 150]]
+D, [2012-09-05T12:13:08.917999 #94993] DEBUG -- :   [1m[36m (1.6ms)[0m  [1mcommit transaction[0m
+D, [2012-09-05T12:13:11.237697 #94993] DEBUG -- :   [1m[35m (0.1ms)[0m  begin transaction
+D, [2012-09-05T12:13:11.238793 #94993] DEBUG -- :   [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)[0m  [["file_name", "images/eaten_alive_by_macinecko-d3ldbxy.jpg"], ["height", 100], ["mean_color", 2058836376], ["meta_data", nil], ["quality", nil], ["width", 150]]
+D, [2012-09-05T12:13:11.241021 #94993] DEBUG -- :   [1m[35m (2.0ms)[0m  commit transaction
+D, [2012-09-05T12:13:11.307510 #94993] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+D, [2012-09-05T12:13:11.309181 #94993] DEBUG -- :   [1m[35mSQL (0.5ms)[0m  INSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)  [["file_name", "images/the_blue_roses_by_macinecko-d3lb8su.jpg"], ["height", 100], ["mean_color", 795152313], ["meta_data", nil], ["quality", nil], ["width", 150]]
+D, [2012-09-05T12:13:11.311222 #94993] DEBUG -- :   [1m[36m (1.6ms)[0m  [1mcommit transaction[0m
+D, [2012-09-05T12:13:11.376436 #94993] DEBUG -- :   [1m[35m (0.1ms)[0m  begin transaction
+D, [2012-09-05T12:13:11.377521 #94993] DEBUG -- :   [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)[0m  [["file_name", "images/all_alone_now_by_macinecko-d3lb6io.jpg"], ["height", 100], ["mean_color", 1885409789], ["meta_data", nil], ["quality", nil], ["width", 150]]
+D, [2012-09-05T12:13:11.379434 #94993] DEBUG -- :   [1m[35m (1.6ms)[0m  commit transaction
+D, [2012-09-05T12:13:11.447258 #94993] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+D, [2012-09-05T12:13:11.448371 #94993] DEBUG -- :   [1m[35mSQL (0.4ms)[0m  INSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)  [["file_name", "images/beauty_of_help_by_macinecko-d3la2sg.jpg"], ["height", 150], ["mean_color", 2768216690], ["meta_data", nil], ["quality", nil], ["width", 100]]
+D, [2012-09-05T12:13:11.450181 #94993] DEBUG -- :   [1m[36m (1.5ms)[0m  [1mcommit transaction[0m
+D, [2012-09-05T12:13:11.516673 #94993] DEBUG -- :   [1m[35m (0.1ms)[0m  begin transaction
+D, [2012-09-05T12:13:11.517748 #94993] DEBUG -- :   [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)[0m  [["file_name", "images/beautiful_pink_by_macinecko-d3la0za.jpg"], ["height", 100], ["mean_color", 2715499579], ["meta_data", nil], ["quality", nil], ["width", 150]]
+D, [2012-09-05T12:13:11.519724 #94993] DEBUG -- :   [1m[35m (1.7ms)[0m  commit transaction
+D, [2012-09-05T12:13:11.575745 #94993] DEBUG -- :   [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+D, [2012-09-05T12:13:11.576757 #94993] DEBUG -- :   [1m[35mSQL (0.3ms)[0m  INSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)  [["file_name", "images/the_yellow_flower_by_macinecko-d3l9xum.jpg"], ["height", 100], ["mean_color", 2531359998], ["meta_data", nil], ["quality", nil], ["width", 150]]
+D, [2012-09-05T12:13:11.578686 #94993] DEBUG -- :   [1m[36m (1.7ms)[0m  [1mcommit transaction[0m
+D, [2012-09-05T12:13:12.582334 #94993] DEBUG -- :   [1m[35m (0.1ms)[0m  begin transaction
+D, [2012-09-05T12:13:12.583332 #94993] DEBUG -- :   [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)[0m  [["file_name", "images/forgotten_beauty_of_history_by_macinecko-d47va0l.jpg"], ["height", 1095], ["mean_color", 2649183494], ["meta_data", nil], ["quality", nil], ["width", 730]]
+D, [2012-09-05T12:13:12.586103 #94993] DEBUG -- :   [1m[35m (2.5ms)[0m  commit transaction
+D, [2012-09-05T12:13:15.056422 #94993] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+D, [2012-09-05T12:13:15.057434 #94993] DEBUG -- :   [1m[35mSQL (0.3ms)[0m  INSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)  [["file_name", "images/forgotten_beauty_of_history_by_macinecko-d47va0l.jpg"], ["height", 2400], ["mean_color", 2651224919], ["meta_data", nil], ["quality", nil], ["width", 1600]]
+D, [2012-09-05T12:13:15.060275 #94993] DEBUG -- :   [1m[36m (2.6ms)[0m  [1mcommit transaction[0m
+D, [2012-09-05T12:13:15.157148 #94993] DEBUG -- :   [1m[35m (0.1ms)[0m  begin transaction
+D, [2012-09-05T12:13:15.158252 #94993] DEBUG -- :   [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)[0m  [["file_name", "images/smile.gif"], ["height", 15], ["mean_color", 1550916218], ["meta_data", nil], ["quality", nil], ["width", 15]]
+D, [2012-09-05T12:13:15.160484 #94993] DEBUG -- :   [1m[35m (2.0ms)[0m  commit transaction
+D, [2012-09-05T12:13:15.226393 #94993] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+D, [2012-09-05T12:13:15.227446 #94993] DEBUG -- :   [1m[35mSQL (0.4ms)[0m  INSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)  [["file_name", "images/l_o_v_e__prague_by_macinecko-d4xbnn0.jpg"], ["height", 100], ["mean_color", 2907760195], ["meta_data", nil], ["quality", nil], ["width", 150]]
+D, [2012-09-05T12:13:15.229334 #94993] DEBUG -- :   [1m[36m (1.6ms)[0m  [1mcommit transaction[0m
+D, [2012-09-05T12:13:15.300837 #94993] DEBUG -- :   [1m[35m (0.1ms)[0m  begin transaction
+D, [2012-09-05T12:13:15.302427 #94993] DEBUG -- :   [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)[0m  [["file_name", "images/uncontrollable_time_by_macinecko-d47nr1z.jpg"], ["height", 100], ["mean_color", 1468248035], ["meta_data", nil], ["quality", nil], ["width", 150]]
+D, [2012-09-05T12:13:15.304523 #94993] DEBUG -- :   [1m[35m (1.8ms)[0m  commit transaction
+D, [2012-09-05T12:13:15.369518 #94993] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+D, [2012-09-05T12:13:15.371078 #94993] DEBUG -- :   [1m[35mSQL (0.4ms)[0m  INSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)  [["file_name", "images/timeless_beauty_by_macinecko-d4py6lg.jpg"], ["height", 102], ["mean_color", 2374166103], ["meta_data", nil], ["quality", nil], ["width", 150]]
+D, [2012-09-05T12:13:15.372960 #94993] DEBUG -- :   [1m[36m (1.5ms)[0m  [1mcommit transaction[0m
+D, [2012-09-05T12:13:15.424069 #94993] DEBUG -- :   [1m[35m (0.1ms)[0m  begin transaction
+D, [2012-09-05T12:13:15.425654 #94993] DEBUG -- :   [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)[0m  [["file_name", "images/camera.gif"], ["height", 20], ["mean_color", 872520281], ["meta_data", nil], ["quality", nil], ["width", 15]]
+D, [2012-09-05T12:13:15.427519 #94993] DEBUG -- :   [1m[35m (1.5ms)[0m  commit transaction
+D, [2012-09-05T12:13:15.706704 #94993] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+D, [2012-09-05T12:13:15.708260 #94993] DEBUG -- :   [1m[35mSQL (0.5ms)[0m  INSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)  [["file_name", "images/clap2.gif"], ["height", 20], ["mean_color", 897427851], ["meta_data", nil], ["quality", nil], ["width", 20]]
+D, [2012-09-05T12:13:15.709936 #94993] DEBUG -- :   [1m[36m (1.3ms)[0m  [1mcommit transaction[0m
+D, [2012-09-05T12:13:15.799583 #94993] DEBUG -- :   [1m[35m (0.1ms)[0m  begin transaction
+D, [2012-09-05T12:13:15.800863 #94993] DEBUG -- :   [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)[0m  [["file_name", "images/cheerful.gif"], ["height", 36], ["mean_color", 977363832], ["meta_data", nil], ["quality", nil], ["width", 49]]
+D, [2012-09-05T12:13:15.802777 #94993] DEBUG -- :   [1m[35m (1.6ms)[0m  commit transaction
+D, [2012-09-05T12:13:15.949051 #94993] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+D, [2012-09-05T12:13:15.950539 #94993] DEBUG -- :   [1m[35mSQL (0.4ms)[0m  INSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)  [["file_name", "images/dragonfly_by_catswire-d4rwsun.jpg"], ["height", 150], ["mean_color", 3322339604], ["meta_data", nil], ["quality", nil], ["width", 147]]
+D, [2012-09-05T12:13:15.952459 #94993] DEBUG -- :   [1m[36m (1.5ms)[0m  [1mcommit transaction[0m
+D, [2012-09-05T12:13:16.015533 #94993] DEBUG -- :   [1m[35m (0.1ms)[0m  begin transaction
+D, [2012-09-05T12:13:16.016623 #94993] DEBUG -- :   [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)[0m  [["file_name", "images/sochen_falls_lost_kids_by_Tonyholmsten.jpg"], ["height", 106], ["mean_color", 2037320683], ["meta_data", nil], ["quality", nil], ["width", 150]]
+D, [2012-09-05T12:13:16.018470 #94993] DEBUG -- :   [1m[35m (1.5ms)[0m  commit transaction
+D, [2012-09-05T12:13:16.082639 #94993] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+D, [2012-09-05T12:13:16.083794 #94993] DEBUG -- :   [1m[35mSQL (0.3ms)[0m  INSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)  [["file_name", "images/mouse_guard__pathfinders_by_kanthara-d3hrqs0.jpg"], ["height", 94], ["mean_color", 2483417305], ["meta_data", nil], ["quality", nil], ["width", 150]]
+D, [2012-09-05T12:13:16.085608 #94993] DEBUG -- :   [1m[36m (1.5ms)[0m  [1mcommit transaction[0m
+D, [2012-09-05T12:13:16.153991 #94993] DEBUG -- :   [1m[35m (0.1ms)[0m  begin transaction
+D, [2012-09-05T12:13:16.155209 #94993] DEBUG -- :   [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)[0m  [["file_name", "images/touch_me___by_unisexbluess-d5bvs6i.jpg"], ["height", 150], ["mean_color", 2540042761], ["meta_data", nil], ["quality", nil], ["width", 150]]
+D, [2012-09-05T12:13:16.157124 #94993] DEBUG -- :   [1m[35m (1.6ms)[0m  commit transaction
+D, [2012-09-05T12:13:18.114946 #94993] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+D, [2012-09-05T12:13:18.116030 #94993] DEBUG -- :   [1m[35mSQL (0.3ms)[0m  INSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)  [["file_name", "images/carmen_by_phiebialoffecy-d4why6h.jpg"], ["height", 150], ["mean_color", 3081547487], ["meta_data", nil], ["quality", nil], ["width", 106]]
+D, [2012-09-05T12:13:18.118093 #94993] DEBUG -- :   [1m[36m (1.8ms)[0m  [1mcommit transaction[0m
+D, [2012-09-05T12:13:18.185372 #94993] DEBUG -- :   [1m[35m (0.1ms)[0m  begin transaction
+D, [2012-09-05T12:13:18.186500 #94993] DEBUG -- :   [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)[0m  [["file_name", "images/le_lacrime_by_phiebialoffecy-d4whxzj.jpg"], ["height", 150], ["mean_color", 3457020783], ["meta_data", nil], ["quality", nil], ["width", 108]]
+D, [2012-09-05T12:13:18.188760 #94993] DEBUG -- :   [1m[35m (2.0ms)[0m  commit transaction
+D, [2012-09-05T12:13:18.403849 #94993] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+D, [2012-09-05T12:13:18.405160 #94993] DEBUG -- :   [1m[35mSQL (0.4ms)[0m  INSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)  [["file_name", "images/un_iceberg_en_amazonie_by_phiebialoffecy-d4wdpu8.jpg"], ["height", 150], ["mean_color", 3947739006], ["meta_data", nil], ["quality", nil], ["width", 100]]
+D, [2012-09-05T12:13:18.407318 #94993] DEBUG -- :   [1m[36m (1.8ms)[0m  [1mcommit transaction[0m
+D, [2012-09-05T12:13:18.644877 #94993] DEBUG -- :   [1m[35m (0.1ms)[0m  begin transaction
+D, [2012-09-05T12:13:18.645981 #94993] DEBUG -- :   [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)[0m  [["file_name", "images/silD, [2012-09-05T12:15:10.547076 #95281] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+D, [2012-09-05T12:15:10.553209 #95281] DEBUG -- :   [1m[35mSQL (4.0ms)[0m  INSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)  [["file_name", "images/dark_notes_by_dementeddiva23-d5dqdao.jpg"], ["height", 200], ["mean_color", 1049912163], ["meta_data", nil], ["quality", nil], ["width", 298]]
+D, [2012-09-05T12:15:10.555468 #95281] DEBUG -- :   [1m[36m (1.8ms)[0m  [1mcommit transaction[0m
+D, [2012-09-05T12:15:10.728897 #95281] DEBUG -- :   [1m[35m (0.1ms)[0m  begin transaction
+D, [2012-09-05T12:15:10.730532 #95281] DEBUG -- :   [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)[0m  [["file_name", "images/la_fortuna_by_harlequinromantique-d5dq6sg.jpg"], ["height", 200], ["mean_color", 2705877703], ["meta_data", nil], ["quality", nil], ["width", 221]]
+D, [2012-09-05T12:15:10.732583 #95281] DEBUG -- :   [1m[35m (1.7ms)[0m  commit transaction
+D, [2012-09-05T12:15:10.829692 #95281] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+D, [2012-09-05T12:15:10.830679 #95281] DEBUG -- :   [1m[35mSQL (0.3ms)[0m  INSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)  [["file_name", "images/grand_arabia_eye_makeup_by_desert_winds-d5dqlc8.jpg"], ["height", 177], ["mean_color", 2707588915], ["meta_data", nil], ["quality", nil], ["width", 300]]
+D, [2012-09-05T12:15:10.832778 #95281] DEBUG -- :   [1m[36m (1.8ms)[0m  [1mcommit transaction[0m
+D, [2012-09-05T12:15:10.990351 #95281] DEBUG -- :   [1m[35m (0.1ms)[0m  begin transaction
+D, [2012-09-05T12:15:10.991404 #95281] DEBUG -- :   [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)[0m  [["file_name", "images/wayfaring_temple_by_one_vox-d5dqieu.jpg"], ["height", 200], ["mean_color", 1570575031], ["meta_data", nil], ["quality", nil], ["width", 274]]
+D, [2012-09-05T12:15:10.993178 #95281] DEBUG -- :   [1m[35m (1.5ms)[0m  commit transaction
+D, [2012-09-05T12:15:11.080822 #95281] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+D, [2012-09-05T12:15:11.081815 #95281] DEBUG -- :   [1m[35mSQL (0.3ms)[0m  INSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)  [["file_name", "images/pag_ibig_by_jaymyccah-d5dq7yc.jpg"], ["height", 192], ["mean_color", 3223389819], ["meta_data", nil], ["quality", nil], ["width", 300]]
+D, [2012-09-05T12:15:11.084129 #95281] DEBUG -- :   [1m[36m (2.0ms)[0m  [1mcommit transaction[0m
+D, [2012-09-05T12:15:11.233102 #95281] DEBUG -- :   [1m[35m (0.2ms)[0m  begin transaction
+D, [2012-09-05T12:15:11.234368 #95281] DEBUG -- :   [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)[0m  [["file_name", "images/lion_chalk_drawing_by_fallunleashed-d5dqhaw.jpg"], ["height", 200], ["mean_color", 2427761957], ["meta_data", nil], ["quality", nil], ["width", 267]]
+D, [2012-09-05T12:15:11.236824 #95281] DEBUG -- :   [1m[35m (2.1ms)[0m  commit transaction
+D, [2012-09-05T12:15:11.353780 #95281] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+D, [2012-09-05T12:15:11.354774 #95281] DEBUG -- :   [1m[35mSQL (0.3ms)[0m  INSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)  [["file_name", "images/chicago__source_code_ii_by_alierturk-d5dqiz8.jpg"], ["height", 200], ["mean_color", 1912146238], ["meta_data", nil], ["quality", nil], ["width", 299]]
+D, [2012-09-05T12:15:11.356704 #95281] DEBUG -- :   [1m[36m (1.7ms)[0m  [1mcommit transaction[0m
+D, [2012-09-05T12:15:11.464674 #95281] DEBUG -- :   [1m[35m (0.1ms)[0m  begin transaction
+D, [2012-09-05T12:15:11.465747 #95281] DEBUG -- :   [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)[0m  [["file_name", "images/adventure_time___finn__s_golden_sword_by_johnsonarms-d5dqid6.jpg"], ["height", 195], ["mean_color", 1145276695], ["meta_data", nil], ["quality", nil], ["width", 299]]
+D, [2012-09-05T12:15:11.467960 #95281] DEBUG -- :   [1m[35m (1.9ms)[0m  commit transaction
+D, [2012-09-05T12:15:11.630789 #95281] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+D, [2012-09-05T12:15:11.631765 #95281] DEBUG -- :   [1m[35mSQL (0.3ms)[0m  INSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)  [["file_name", "images/_hashtag_by_aquafeles-d5dqf2r.jpg"], ["height", 200], ["mean_color", 3499624417], ["meta_data", nil], ["quality", nil], ["width", 283]]
+D, [2012-09-05T12:15:11.633702 #95281] DEBUG -- :   [1m[36m (1.7ms)[0m  [1mcommit transaction[0m
+D, [2012-09-05T12:15:11.765582 #95281] DEBUG -- :   [1m[35m (0.1ms)[0m  begin transaction
+D, [2012-09-05T12:15:11.766978 #95281] DEBUG -- :   [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)[0m  [["file_name", "images/healthy_levels_of_insanity_152_by_noxsatukeir-d5dq9nv.jpg"], ["height", 200], ["mean_color", 761946454], ["meta_data", nil], ["quality", nil], ["width", 286]]
+D, [2012-09-05T12:15:11.768992 #95281] DEBUG -- :   [1m[35m (1.6ms)[0m  commit transaction
+D, [2012-09-05T12:15:11.916224 #95281] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+D, [2012-09-05T12:15:11.917915 #95281] DEBUG -- :   [1m[35mSQL (0.5ms)[0m  INSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)  [["file_name", "images/white_as_a_pearl_by_sexy_fantasy-d5dq4bi.jpg"], ["height", 200], ["mean_color", 2426819771], ["meta_data", nil], ["quality", nil], ["width", 233]]
+D, [2012-09-05T12:15:11.919959 #95281] DEBUG -- :   [1m[36m (1.7ms)[0m  [1mcommit transaction[0m
+D, [2012-09-05T12:15:11.989887 #95281] DEBUG -- :   [1m[35m (0.1ms)[0m  begin transaction
+D, [2012-09-05T12:15:11.990909 #95281] DEBUG -- :   [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)[0m  [["file_name", "images/on_a_steek_by_altalamatox-d5dql15.jpg"], ["height", 137], ["mean_color", 325054565], ["meta_data", nil], ["quality", nil], ["width", 299]]
+D, [2012-09-05T12:15:11.992844 #95281] DEBUG -- :   [1m[35m (1.7ms)[0m  commit transaction
+D, [2012-09-05T12:15:12.193469 #95281] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+D, [2012-09-05T12:15:12.194531 #95281] DEBUG -- :   [1m[35mSQL (0.3ms)[0m  INSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)  [["file_name", "images/slenderman_tendrils_errywhere_by_digimitsu-d5dq0z6.jpg"], ["height", 200], ["mean_color", 1589901661], ["meta_data", nil], ["quality", nil], ["width", 240]]
+D, [2012-09-05T12:15:12.196684 #95281] DEBUG -- :   [1m[36m (1.8ms)[0m  [1mcommit transaction[0m
+D, [2012-09-05T12:15:12.341045 #95281] DEBUG -- :   [1m[35m (0.1ms)[0m  begin transaction
+D, [2012-09-05T12:15:12.342797 #95281] DEBUG -- :   [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)[0m  [["file_name", "images/september_by_lieveheersbeestje-d5dqu2i.jpg"], ["height", 200], ["mean_color", 1446124216], ["meta_data", nil], ["quality", nil], ["width", 250]]
+D, [2012-09-05T12:15:12.345213 #95281] DEBUG -- :   [1m[35m (2.1ms)[0m  commit transaction
+D, [2012-09-05T12:15:12.448821 #95281] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+D, [2012-09-05T12:15:12.449853 #95281] DEBUG -- :   [1m[35mSQL (0.3ms)[0m  INSERT INTO "imagD, [2012-09-05T12:19:46.288151 #95463] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+D, [2012-09-05T12:19:46.292486 #95463] DEBUG -- :   [1m[35mSQL (2.8ms)[0m  INSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)  [["file_name", "images/dark_notes_by_dementeddiva23-d5dqdao.jpg"], ["height", 200], ["mean_color", 1049912163], ["meta_data", nil], ["quality", nil], ["width", 298]]
+D, [2012-09-05T12:19:46.325480 #95463] DEBUG -- :   [1m[36m (32.6ms)[0m  [1mcommit transaction[0m
+D, [2012-09-05T12:19:46.489594 #95463] DEBUG -- :   [1m[35m (0.1ms)[0m  begin transaction
+D, [2012-09-05T12:19:46.503495 #95463] DEBUG -- :   [1m[36mSQL (12.9ms)[0m  [1mINSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)[0m  [["file_name", "images/la_fortuna_by_harlequinromantique-d5dq6sg.jpg"], ["height", 200], ["mean_color", 2705877703], ["meta_data", nil], ["quality", nil], ["width", 221]]
+D, [2012-09-05T12:19:46.519191 #95463] DEBUG -- :   [1m[35m (15.3ms)[0m  commit transaction
+D, [2012-09-05T12:19:46.608724 #95463] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+D, [2012-09-05T12:19:46.609792 #95463] DEBUG -- :   [1m[35mSQL (0.3ms)[0m  INSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)  [["file_name", "images/grand_arabia_eye_makeup_by_desert_winds-d5dqlc8.jpg"], ["height", 177], ["mean_color", 2707588915], ["meta_data", nil], ["quality", nil], ["width", 300]]
+D, [2012-09-05T12:19:46.611705 #95463] DEBUG -- :   [1m[36m (1.7ms)[0m  [1mcommit transaction[0m
+D, [2012-09-05T12:19:46.786573 #95463] DEBUG -- :   [1m[35m (0.1ms)[0m  begin transaction
+D, [2012-09-05T12:19:46.787660 #95463] DEBUG -- :   [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)[0m  [["file_name", "images/wayfaring_temple_by_one_vox-d5dqieu.jpg"], ["height", 200], ["mean_color", 1570575031], ["meta_data", nil], ["quality", nil], ["width", 274]]
+D, [2012-09-05T12:19:46.789842 #95463] DEBUG -- :   [1m[35m (1.9ms)[0m  commit transaction
+D, [2012-09-05T12:19:46.883086 #95463] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+D, [2012-09-05T12:19:46.884331 #95463] DEBUG -- :   [1m[35mSQL (0.4ms)[0m  INSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)  [["file_name", "images/pag_ibig_by_jaymyccah-d5dq7yc.jpg"], ["height", 192], ["mean_color", 3223389819], ["meta_data", nil], ["quality", nil], ["width", 300]]
+D, [2012-09-05T12:19:46.886439 #95463] DEBUG -- :   [1m[36m (1.8ms)[0m  [1mcommit transaction[0m
+D, [2012-09-05T12:19:46.974502 #95463] DEBUG -- :   [1m[35m (0.1ms)[0m  begin transaction
+D, [2012-09-05T12:19:46.975690 #95463] DEBUG -- :   [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)[0m  [["file_name", "images/lion_chalk_drawing_by_fallunleashed-d5dqhaw.jpg"], ["height", 200], ["mean_color", 2427761957], ["meta_data", nil], ["quality", nil], ["width", 267]]
+D, [2012-09-05T12:19:46.978058 #95463] DEBUG -- :   [1m[35m (2.1ms)[0m  commit transaction
+D, [2012-09-05T12:19:47.080082 #95463] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+D, [2012-09-05T12:19:47.081129 #95463] DEBUG -- :   [1m[35mSQL (0.3ms)[0m  INSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)  [["file_name", "images/chicago__source_code_ii_by_alierturk-d5dqiz8.jpg"], ["height", 200], ["mean_color", 1912146238], ["meta_data", nil], ["quality", nil], ["width", 299]]
+D, [2012-09-05T12:19:47.083470 #95463] DEBUG -- :   [1m[36m (2.1ms)[0m  [1mcommit transaction[0m
+D, [2012-09-05T12:19:47.215822 #95463] DEBUG -- :   [1m[35m (0.1ms)[0m  begin transaction
+D, [2012-09-05T12:19:47.216844 #95463] DEBUG -- :   [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)[0m  [["file_name", "images/adventure_time___finn__s_golden_sword_by_johnsonarms-d5dqid6.jpg"], ["height", 195], ["mean_color", 1145276695], ["meta_data", nil], ["quality", nil], ["width", 299]]
+D, [2012-09-05T12:19:47.231143 #95463] DEBUG -- :   [1m[35m (1.6ms)[0m  commit transaction
+D, [2012-09-05T12:19:47.398956 #95463] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+D, [2012-09-05T12:19:47.399999 #95463] DEBUG -- :   [1m[35mSQL (0.3ms)[0m  INSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)  [["file_name", "images/_hashtag_by_aquafeles-d5dqf2r.jpg"], ["height", 200], ["mean_color", 3499624417], ["meta_data", nil], ["quality", nil], ["width", 283]]
+D, [2012-09-05T12:19:47.402092 #95463] DEBUG -- :   [1m[36m (1.8ms)[0m  [1mcommit transaction[0m
+D, [2012-09-05T12:19:47.547941 #95463] DEBUG -- :   [1m[35m (0.1ms)[0m  begin transaction
+D, [2012-09-05T12:19:47.549000 #95463] DEBUG -- :   [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)[0m  [["file_name", "images/healthy_levels_of_insanity_152_by_noxsatukeir-d5dq9nv.jpg"], ["height", 200], ["mean_color", 761946454], ["meta_data", nil], ["quality", nil], ["width", 286]]
+D, [2012-09-05T12:19:47.550928 #95463] DEBUG -- :   [1m[35m (1.6ms)[0m  commit transaction
+D, [2012-09-05T12:19:47.695938 #95463] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+D, [2012-09-05T12:19:47.697252 #95463] DEBUG -- :   [1m[35mSQL (0.4ms)[0m  INSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)  [["file_name", "images/white_as_a_pearl_by_sexy_fantasy-d5dq4bi.jpg"], ["height", 200], ["mean_color", 2426819771], ["meta_data", nil], ["quality", nil], ["width", 233]]
+D, [2012-09-05T12:19:47.699468 #95463] DEBUG -- :   [1m[36m (1.9ms)[0m  [1mcommit transaction[0m
+D, [2012-09-05T12:19:47.797221 #95463] DEBUG -- :   [1m[35m (0.1ms)[0m  begin transaction
+D, [2012-09-05T12:19:47.798847 #95463] DEBUG -- :   [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)[0m  [["file_name", "images/on_a_steek_by_altalamatox-d5dql15.jpg"], ["height", 137], ["mean_color", 325054565], ["meta_data", nil], ["quality", nil], ["width", 299]]
+D, [2012-09-05T12:19:47.814144 #95463] DEBUG -- :   [1m[35m (14.9ms)[0m  commit transaction
+D, [2012-09-05T12:19:48.030175 #95463] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+D, [2012-09-05T12:19:48.031926 #95463] DEBUG -- :   [1m[35mSQL (0.5ms)[0m  INSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)  [["file_name", "images/slenderman_tendrils_errywhere_by_digimitsu-d5dq0z6.jpg"], ["height", 200], ["mean_color", 1589901661], ["meta_data", nil], ["quality", nil], ["width", 240]]
+D, [2012-09-05T12:19:48.034160 #95463] DEBUG -- :   [1m[36m (1.8ms)[0m  [1mcommit transaction[0m
+D, [2012-09-05T12:19:48.177058 #95463] DEBUG -- :   [1m[35m (0.1ms)[0m  begin transaction
+D, [2012-09-05T12:19:48.178110 #95463] DEBUG -- :   [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)[0m  [["file_name", "images/september_by_lieveheersbeestje-d5dqu2i.jpg"], ["height", 200], ["mean_color", 1446124216], ["meta_data", nil], ["quality", nil], ["width", 250]]
+D, [2012-09-05T12:19:48.180446 #95463] DEBUG -- :   [1m[35m (2.0ms)[0m  commit transaction
+D, [2012-09-05T12:19:48.281716 #95463] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+D, [2012-09-05T12:19:48.282754 #95463] DEBUG -- :   [1m[35mSQL (0.3ms)[0m  INSERT INTO "D, [2012-09-05T12:24:57.698645 #95534] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+D, [2012-09-05T12:24:57.702785 #95534] DEBUG -- :   [1m[35mSQL (2.7ms)[0m  INSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)  [["file_name", "images/dark_notes_by_dementeddiva23-d5dqdao.jpg"], ["height", 200], ["mean_color", 1049912163], ["meta_data", nil], ["quality", nil], ["width", 298]]
+D, [2012-09-05T12:24:57.720177 #95534] DEBUG -- :   [1m[36m (17.1ms)[0m  [1mcommit transaction[0m
+D, [2012-09-05T12:24:57.919668 #95534] DEBUG -- :   [1m[35m (0.2ms)[0m  begin transaction
+D, [2012-09-05T12:24:57.921527 #95534] DEBUG -- :   [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)[0m  [["file_name", "images/la_fortuna_by_harlequinromantique-d5dq6sg.jpg"], ["height", 200], ["mean_color", 2705877703], ["meta_data", nil], ["quality", nil], ["width", 221]]
+D, [2012-09-05T12:24:57.923585 #95534] DEBUG -- :   [1m[35m (1.6ms)[0m  commit transaction
+D, [2012-09-05T12:24:58.023198 #95534] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+D, [2012-09-05T12:24:58.024265 #95534] DEBUG -- :   [1m[35mSQL (0.3ms)[0m  INSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)  [["file_name", "images/grand_arabia_eye_makeup_by_desert_winds-d5dqlc8.jpg"], ["height", 177], ["mean_color", 2707588915], ["meta_data", nil], ["quality", nil], ["width", 300]]
+D, [2012-09-05T12:24:58.026413 #95534] DEBUG -- :   [1m[36m (1.9ms)[0m  [1mcommit transaction[0m
+D, [2012-09-05T12:24:58.189879 #95534] DEBUG -- :   [1m[35m (0.1ms)[0m  begin transaction
+D, [2012-09-05T12:24:58.190892 #95534] DEBUG -- :   [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)[0m  [["file_name", "images/wayfaring_temple_by_one_vox-d5dqieu.jpg"], ["height", 200], ["mean_color", 1570575031], ["meta_data", nil], ["quality", nil], ["width", 274]]
+D, [2012-09-05T12:24:58.193105 #95534] DEBUG -- :   [1m[35m (2.0ms)[0m  commit transaction
+D, [2012-09-05T12:24:58.283432 #95534] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+D, [2012-09-05T12:24:58.284439 #95534] DEBUG -- :   [1m[35mSQL (0.3ms)[0m  INSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)  [["file_name", "images/pag_ibig_by_jaymyccah-d5dq7yc.jpg"], ["height", 192], ["mean_color", 3223389819], ["meta_data", nil], ["quality", nil], ["width", 300]]
+D, [2012-09-05T12:24:58.286281 #95534] DEBUG -- :   [1m[36m (1.5ms)[0m  [1mcommit transaction[0m
+D, [2012-09-05T12:24:58.375033 #95534] DEBUG -- :   [1m[35m (0.1ms)[0m  begin transaction
+D, [2012-09-05T12:24:58.376091 #95534] DEBUG -- :   [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)[0m  [["file_name", "images/lion_chalk_drawing_by_fallunleashed-d5dqhaw.jpg"], ["height", 200], ["mean_color", 2427761957], ["meta_data", nil], ["quality", nil], ["width", 267]]
+D, [2012-09-05T12:24:58.378104 #95534] DEBUG -- :   [1m[35m (1.8ms)[0m  commit transaction
+D, [2012-09-05T12:24:58.483135 #95534] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+D, [2012-09-05T12:24:58.484156 #95534] DEBUG -- :   [1m[35mSQL (0.3ms)[0m  INSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)  [["file_name", "images/chicago__source_code_ii_by_alierturk-d5dqiz8.jpg"], ["height", 200], ["mean_color", 1912146238], ["meta_data", nil], ["quality", nil], ["width", 299]]
+D, [2012-09-05T12:24:58.486209 #95534] DEBUG -- :   [1m[36m (1.8ms)[0m  [1mcommit transaction[0m
+D, [2012-09-05T12:24:58.600961 #95534] DEBUG -- :   [1m[35m (0.1ms)[0m  begin transaction
+D, [2012-09-05T12:24:58.602043 #95534] DEBUG -- :   [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)[0m  [["file_name", "images/adventure_time___finn__s_golden_sword_by_johnsonarms-d5dqid6.jpg"], ["height", 195], ["mean_color", 1145276695], ["meta_data", nil], ["quality", nil], ["width", 299]]
+D, [2012-09-05T12:24:58.619371 #95534] DEBUG -- :   [1m[35m (1.8ms)[0m  commit transaction
+D, [2012-09-05T12:24:58.787039 #95534] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+D, [2012-09-05T12:24:58.788080 #95534] DEBUG -- :   [1m[35mSQL (0.3ms)[0m  INSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)  [["file_name", "images/_hashtag_by_aquafeles-d5dqf2r.jpg"], ["height", 200], ["mean_color", 3499624417], ["meta_data", nil], ["quality", nil], ["width", 283]]
+D, [2012-09-05T12:24:58.790347 #95534] DEBUG -- :   [1m[36m (2.0ms)[0m  [1mcommit transaction[0m
+D, [2012-09-05T12:24:58.934879 #95534] DEBUG -- :   [1m[35m (0.1ms)[0m  begin transaction
+D, [2012-09-05T12:24:58.936119 #95534] DEBUG -- :   [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)[0m  [["file_name", "images/healthy_levels_of_insanity_152_by_noxsatukeir-d5dq9nv.jpg"], ["height", 200], ["mean_color", 761946454], ["meta_data", nil], ["quality", nil], ["width", 286]]
+D, [2012-09-05T12:24:58.938040 #95534] DEBUG -- :   [1m[35m (1.6ms)[0m  commit transaction
+D, [2012-09-05T12:24:59.008703 #95534] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+D, [2012-09-05T12:24:59.009687 #95534] DEBUG -- :   [1m[35mSQL (0.3ms)[0m  INSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)  [["file_name", "images/on_a_steek_by_altalamatox-d5dql15.jpg"], ["height", 137], ["mean_color", 325054565], ["meta_data", nil], ["quality", nil], ["width", 299]]
+D, [2012-09-05T12:24:59.011795 #95534] DEBUG -- :   [1m[36m (1.7ms)[0m  [1mcommit transaction[0m
+D, [2012-09-05T12:24:59.151472 #95534] DEBUG -- :   [1m[35m (0.1ms)[0m  begin transaction
+D, [2012-09-05T12:24:59.152612 #95534] DEBUG -- :   [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)[0m  [["file_name", "images/white_as_a_pearl_by_sexy_fantasy-d5dq4bi.jpg"], ["height", 200], ["mean_color", 2426819771], ["meta_data", nil], ["quality", nil], ["width", 233]]
+D, [2012-09-05T12:24:59.154601 #95534] DEBUG -- :   [1m[35m (1.7ms)[0m  commit transaction
+D, [2012-09-05T12:24:59.351473 #95534] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+D, [2012-09-05T12:24:59.352574 #95534] DEBUG -- :   [1m[35mSQL (0.3ms)[0m  INSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)  [["file_name", "images/hold_the_line_by_zoranphoto-d5dqwdo.jpg"], ["height", 200], ["mean_color", 1496795366], ["meta_data", nil], ["quality", nil], ["width", 267]]
+D, [2012-09-05T12:24:59.354676 #95534] DEBUG -- :   [1m[36m (1.8ms)[0m  [1mcommit transaction[0m
+D, [2012-09-05T12:24:59.437413 #95534] DEBUG -- :   [1m[35m (0.1ms)[0m  begin transaction
+D, [2012-09-05T12:24:59.438524 #95534] DEBUG -- :   [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)[0m  [["file_name", "images/september_by_lieveheersbeestje-d5dqu2i.jpg"], ["height", 200], ["mean_color", 1446124216], ["meta_data", nil], ["quality", nil], ["width", 250]]
+D, [2012-09-05T12:24:59.440787 #95534] DEBUG -- :   [1m[35m (2.0ms)[0m  commit transaction
+D, [2012-09-05T12:24:59.660965 #95534] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+D, [2012-09-05T12:24:59.662001 #95534] DEBUG -- :   [1m[35mSQL (0.4ms)[0m  INSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)  [["file_name", "images/glory_nebula_wp_by_casperium-d5dqk5b.jpg"], ["height", 188], ["mean_color", 1910084376], ["meta_data", nil], ["quality", nil], ["width", 300]]
+D, [2012-09-05T12:24:59.664445 #95534] DEBUG -- :   [1m[36m (2.1ms)[0m  [1mcommit transaction[0m
+D, [2012-09-05T12:25:05.991237 #95534] DEBUG -- :   [1m[35m (0.2ms)[0m  begin transaction
+D, [2012-09-05T12:25:05.992977 #95534] DEBUG -- :   [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)[0m  [["file_name", "images/phantasmagorie_by_phoenixstamatis-d4rtdrb.jpg"], ["height", 894], ["mean_color", 1884722664], ["meta_data", nil], ["quality", nil], ["width", 894]]
+D, [2012-09-05T12:25:05.994664 #95534] DEBUG -- :   [1m[35m (1.3ms)[0m  commit transaction
+D, [2012-09-05T12:25:06.931786 #95534] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+D, [2012-09-05T12:25:06.932760 #95534] DEBUG -- :   [1m[35mSQL (0.3ms)[0m  INSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)  [["file_name", "images/phantasmagorie_by_phoenixstamatis-d4rtdrb.jpg"], ["height", 900], ["mean_color", 1884526323], ["meta_data", nil], ["quality", nil], ["width", 900]]
+D, [2012-09-05T12:25:06.934900 #95534] DEBUG -- :   [1m[36m (1.9ms)[0m  [1mcommit transaction[0m
+D, [2012-09-05T12:25:10.532619 #95534] DEBUG -- :   [1m[35m (0.2ms)[0m  begin transaction
+D, [2012-09-05T12:25:10.534335 #95534] DEBUG -- :   [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)[0m  [["file_name", "images/stay_by_my_side_by_junay-d5a6eoy.jpg"], ["height", 650], ["mean_color", 2469058946], ["meta_data", nil], ["quality", nil], ["width", 1228]]
+D, [2012-09-05T12:25:10.568307 #95534] DEBUG -- :   [1m[35m (33.5ms)[0m  commit transaction
+D, [2012-09-05T12:25:11.496961 #95534] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+D, [2012-09-05T12:25:11.498672 #95534] DEBUG -- :   [1m[35mSQL (0.4ms)[0m  INSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)  [["file_name", "images/stay_by_my_side_by_junay-d5a6eoy.jpg"], ["height", 847], ["mean_color", 2469059207], ["meta_data", nil], ["quality", nil], ["width", 1600]]
+D, [2012-09-05T12:25:11.500698 #95534] DEBUG -- :   [1m[36m (1.6ms)[0m  [1mcommit transaction[0m
+D, [2012-09-05T12:25:14.697886 #95534] DEBUG -- :   [1m[35m (0.2ms)[0m  begin transaction
+D, [2012-09-05T12:25:14.699819 #95534] DEBUG -- :   [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)[0m  [["file_name", "images/the_last_living_rose_by_poorsouls-d5cvdnv.jpg"], ["height", 900], ["mean_color", 3701503776], ["meta_data", nil], ["quality", nil], ["width", 600]]
+D, [2012-09-05T12:25:14.768703 #95534] DEBUG -- :   [1m[35m (68.2ms)[0m  commit transaction
+D, [2012-09-05T12:25:17.830640 #95534] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+D, [2012-09-05T12:25:17.831725 #95534] DEBUG -- :   [1m[35mSQL (0.3ms)[0m  INSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)  [["file_name", "images/gothic_romantic_stock_06_by_meetmeatthelake2nite-d54pdze.jpg"], ["height", 1096], ["mean_color", 1739994883], ["meta_data", nil], ["quality", nil], ["width", 728]]
+D, [2012-09-05T12:25:17.858016 #95534] DEBUG -- :   [1m[36m (26.0ms)[0m  [1mcommit transaction[0m
+D, [2012-09-05T12:25:18.591293 #95534] DEBUG -- :   [1m[35m (0.1ms)[0m  begin transaction
+D, [2012-09-05T12:25:18.592319 #95534] DEBUG -- :   [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)[0m  [["file_name", "images/gothic_romantic_stock_06_by_meetmeatthelake2nite-d54pdze.jpg"], ["height", 1355], ["mean_color", 1740192773], ["meta_data", nil], ["quality", nil], ["width", 900]]
+D, [2012-09-05T12:25:18.602679 #95534] DEBUG -- :   [1m[35m (10.0ms)[0m  commit transaction
+D, [2012-09-05T12:25:21.931172 #95534] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+D, [2012-09-05T12:25:21.932391 #95534] DEBUG -- :   [1m[35mSQL (0.4ms)[0m  INSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)  [["file_name", "images/paradise_by_flufflepot-d5cky4d.png"], ["height", 960], ["mean_color", 1591291959], ["meta_data", nil], ["quality", nil], ["width", 832]]
+D, [2012-09-05T12:25:21.957937 #95534] DEBUG -- :   [1m[36m (25.2ms)[0m  [1mcommit transaction[0m
+D, [2012-09-05T12:25:22.761039 #95534] DEBUG -- :   [1m[35m (0.1ms)[0m  begin transaction
+D, [2012-09-05T12:25:22.762557 #95534] DEBUG -- :   [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)[0m  [["file_name", "images/paradise_by_flufflepot-d5cky4d.png"], ["height", 1039], ["mean_color", 1583864808], ["meta_data", nil], ["quality", nil], ["width", 900]]
+D, [2012-09-05T12:25:22.780190 #95534] DEBUG -- :   [1m[35m (17.2ms)[0m  commit transaction
+D, [2012-09-05T12:25:24.633336 #95534] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+D, [2012-09-05T12:25:24.634445 #95534] DEBUG -- :   [1m[35mSQL (0.3ms)[0m  INSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)  [["file_name", "images/print-3v1.png"], ["height", 188], ["mean_color", 3070410625], ["meta_data", nil], ["quality", nil], ["width", 300]]
+D, [2012-09-05T12:25:24.636865 #95534] DEBUG -- :   [1m[36m (2.0ms)[0m  [1mcommit transaction[0m
+D, [2012-09-05T12:25:24.740818 #95534] DEBUG -- :   [1m[35m (0.1ms)[0m  begin transaction
+D, [2012-09-05T12:25:24.742156 #95534] DEBUG -- :   [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)[0m  [["file_name", "images/print-6.png"], ["height", 188], ["mean_color", 1837789181], ["meta_data", nil], ["quality", nil], ["width", 200]]
+D, [2012-09-05T12:25:24.744295 #95534] DEBUG -- :   [1m[35m (1.9ms)[0m  commit transaction
+D, [2012-09-05T12:25:25.018621 #95534] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+D, [2012-09-05T12:25:25.019731 #95534] DEBUG -- :   [1m[35mSQL (0.3ms)[0m  INSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)  [["file_name", "images/print-4.png"], ["height", 188], ["mean_color", 2677785899], ["meta_data", nil], ["quality", nil], ["width", 300]]
+D, [2012-09-05T12:25:25.021782 #95534] DEBUG -- :   [1m[36m (1.7ms)[0m  [1mcommit transaction[0m
+D, [2012-09-05T12:25:36.779129 #95534] DEBUG -- :   [1m[35m (0.1ms)[0m  begin transaction
+D, [2012-09-05T12:25:36.780320 #95534] DEBUG -- :   [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)[0m  [["file_name", "images/cotton-clouds.jpg"], ["height", 198], ["mean_color", 2780401558], ["meta_data", nil], ["quality", nil], ["width", 278]]
+D, [2012-09-05T12:25:36.782409 #95534] DEBUG -- :   [1m[35m (1.8ms)[0m  commit transaction
+D, [2012-09-05T12:25:40.900292 #95534] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+D, [2012-09-05T12:25:40.901895 #95534] DEBUG -- :   [1m[35mSQL (0.4ms)[0m  INSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)  [["file_name", "images/texture-stock-500.jpg"], ["height", 198], ["mean_color", 429903322], ["meta_data", nil], ["quality", nil], ["width", 293]]
+D, [2012-09-05T12:25:40.903896 #95534] DEBUG -- :   [1m[36m (1.6ms)[0m  [1mcommit transaction[0m
+D, [2012-09-05T12:25:51.451823 #95534] DEBUG -- :   [1m[35m (0.1ms)[0m  begin transaction
+D, [2012-09-05T12:25:51.452912 #95534] DEBUG -- :   [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)[0m  [["file_name", "images/art-gifts-main.png"], ["height", 186], ["mean_color", 2606663625], ["meta_data", nil], ["quality", nil], ["width", 319]]
+D, [2012-09-05T12:25:51.454733 #95534] DEBUG -- :   [1m[35m (1.6ms)[0m  commit transaction
+D, [2012-09-05T12:25:52.576973 #95534] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+D, [2012-09-05T12:25:52.578679 #95534] DEBUG -- :   [1m[35mSQL (0.5ms)[0m  INSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)  [["file_name", "images/tableedge.png"], ["height", 75], ["mean_color", 807740661], ["meta_data", nil], ["quality", nil], ["width", 280]]
+D, [2012-09-05T12:25:52.580902 #95534] DEBUG -- :   [1m[36m (1.7ms)[0m  [1mcommit transaction[0m
+D, [2012-09-05T12:25:56.696148 #95534] DEBUG -- :   [1m[35m (0.1ms)[0m  begin transaction
+D, [2012-09-05T12:25:56.697377 #95534] DEBUG -- :   [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)[0m  [["file_name", "images/scorched_earth_by_arcipello-d5118nz.jpg"], ["height", 179], ["mean_color", 1455592307], ["meta_data", nil], ["quality", nil], ["width", 299]]
+D, [2012-09-05T12:25:56.699442 #95534] DEBUG -- :   [1m[35m (1.8ms)[0m  commit transaction
+D, [2012-09-05T12:25:57.142038 #95534] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+D, [2012-09-05T12:25:57.143074 #95534] DEBUG -- :   [1m[35mSQL (0.3ms)[0m  INSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)  [["file_name", "images/hades_and_persephone_2_by_sandara-d3hkrew.jpg"], ["height", 188], ["mean_color", 1959338739], ["meta_data", nil], ["quality", nil], ["width", 300]]
+D, [2012-09-05T12:25:57.144895 #95534] DEBUG -- :   [1m[36m (1.6ms)[0m  [1mcommit transaction[0m
+D, [2012-09-05T12:25:57.242043 #95534] DEBUG -- :   [1m[35m (0.1ms)[0m  begin transaction
+D, [2012-09-05T12:25:57.243087 #95534] DEBUG -- :   [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)[0m  [["file_name", "images/virtuoso_by_alicexz-d48qgre.jpg"], ["height", 200], ["mean_color", 993336724], ["meta_data", nil], ["quality", nil], ["width", 300]]
+D, [2012-09-05T12:25:57.245762 #95534] DEBUG -- :   [1m[35m (2.3ms)[0m  commit transaction
+D, [2012-09-05T12:25:57.324660 #95534] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+D, [2012-09-05T12:25:57.325942 #95534] DEBUG -- :   [1m[35mSQL (0.4ms)[0m  INSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)  [["file_name", "images/stood_beneath_an_orange_sky__by_alicexz-d41ay0g.png"], ["height", 200], ["mean_color", 3207695370], ["meta_data", nil], ["quality", nil], ["width", 200]]
+D, [2012-09-05T12:25:57.328197 #95534] DEBUG -- :   [1m[36m (1.9ms)[0m  [1mcommit transaction[0m
+D, [2012-09-05T12:25:57.420429 #95534] DEBUG -- :   [1m[35m (0.1ms)[0m  begin transaction
+D, [2012-09-05T12:25:57.421496 #95534] DEBUG -- :   [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)[0m  [["file_name", "images/hallelujah_city_by_novum1-d55be85.jpg"], ["height", 200], ["mean_color", 1210698119], ["meta_data", nil], ["quality", nil], ["width", 234]]
+D, [2012-09-05T12:25:57.423832 #95534] DEBUG -- :   [1m[35m (2.1ms)[0m  commit transaction
+D, [2012-09-05T12:25:57.575697 #95534] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+D, [2012-09-05T12:25:57.576976 #95534] DEBUG -- :   [1m[35mSQL (0.3ms)[0m  INSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)  [["file_name", "images/sucha_lefty_by_yasmeanie-dlvqny.jpg"], ["height", 200], ["mean_color", 3507009965], ["meta_data", nil], ["quality", nil], ["width", 200]]
+D, [2012-09-05T12:25:57.579102 #95534] DEBUG -- :   [1m[36m (1.8ms)[0m  [1mcommit transaction[0m
+D, [2012-09-05T12:25:57.654438 #95534] DEBUG -- :   [1m[35m (0.1ms)[0m  begin transaction
+D, [2012-09-05T12:25:57.655963 #95534] DEBUG -- :   [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)[0m  [["file_name", "images/world_map_typography_by_crzisme-d4cd975.jpg"], ["height", 169], ["mean_color", 1021766639], ["meta_data", nil], ["quality", nil], ["width", 300]]
+D, [2012-09-05T12:25:57.657758 #95534] DEBUG -- :   [1m[35m (1.5ms)[0m  commit transaction
+D, [2012-09-05T12:25:57.746584 #95534] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+D, [2012-09-05T12:25:57.747741 #95534] DEBUG -- :   [1m[35mSQL (0.3ms)[0m  INSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)  [["file_name", "images/singapore_ruins_by_jonasdero-d53xj4h.jpg"], ["height", 130], ["mean_color", 2208594393], ["meta_data", nil], ["quality", nil], ["width", 300]]
+D, [2012-09-05T12:25:57.749882 #95534] DEBUG -- :   [1m[36m (1.8ms)[0m  [1mcommit transaction[0m
+D, [2012-09-05T12:25:57.932369 #95534] DEBUG -- :   [1m[35m (0.1ms)[0m  begin transaction
+D, [2012-09-05T12:25:57.934169 #95534] DEBUG -- :   [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)[0m  [["file_name", "images/the_neverending_dreamer_by_parablev-d303yfo.jpg"], ["height", 169], ["mean_color", 2095315409], ["meta_data", nil], ["quality", nil], ["width", 300]]
+D, [2012-09-05T12:25:57.936155 #95534] DEBUG -- :   [1m[35m (1.6ms)[0m  commit transaction
+D, [2012-09-05T12:25:58.253185 #95534] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+D, [2012-09-05T12:25:58.254219 #95534] DEBUG -- :   [1m[35mSQL (0.3ms)[0m  INSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)  [["file_name", "images/reality_by_jay_cougar-d54ef2t.png"], ["height", 200], ["mean_color", 3491736757], ["meta_data", nil], ["quality", nil], ["width", 290]]
+D, [2012-09-05T12:25:58.256456 #95534] DEBUG -- :   [1m[36m (2.0ms)[0m  [1mcommit transaction[0m
+D, [2012-09-05T12:25:58.355952 #95534] DEBUG -- :   [1m[35m (0.1ms)[0m  begin transaction
+D, [2012-09-05T12:25:58.357062 #95534] DEBUG -- :   [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)[0m  [["file_name", "images/e5ebe7a654621407bba19589ea777228-d4xuj2w.jpg"], ["height", 200], ["mean_color", 1950647367], ["meta_data", nil], ["quality", nil], ["width", 266]]
+D, [2012-09-05T12:25:58.359484 #95534] DEBUG -- :   [1m[35m (2.2ms)[0m  commit transaction
+D, [2012-09-05T12:25:58.439996 #95534] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+D, [2012-09-05T12:25:58.441238 #95534] DEBUG -- :   [1m[35mSQL (0.4ms)[0m  INSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)  [["file_name", "images/Life_by_AdonisWerther.jpg"], ["height", 167], ["mean_color", 1436244887], ["meta_data", nil], ["quality", nil], ["width", 300]]
+D, [2012-09-05T12:25:58.443205 #95534] DEBUG -- :   [1m[36m (1.7ms)[0m  [1mcommit transaction[0m
+D, [2012-09-05T12:25:58.546521 #95534] DEBUG -- :   [1m[35m (0.1ms)[0m  begin transaction
+D, [2012-09-05T12:25:58.547815 #95534] DEBUG -- :   [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)[0m  [["file_name", "images/airplanes_by_alicexz-d3bo2d5.jpg"], ["height", 188], ["mean_color", 2744463708], ["meta_data", nil], ["quality", nil], ["width", 300]]
+D, [2012-09-05T12:25:58.549804 #95534] DEBUG -- :   [1m[35m (1.7ms)[0m  commit transaction
+D, [2012-09-05T12:26:00.445479 #95534] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+D, [2012-09-05T12:26:00.446677 #95534] DEBUG -- :   [1m[35mSQL (0.3ms)[0m  INSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)  [["file_name", "images/a96b87f55ba386dce3b5fa2b132fc1ff-d50oziw.jpg"], ["height", 104], ["mean_color", 4093093876], ["meta_data", nil], ["quality", nil], ["width", 300]]
+D, [2012-09-05T12:26:00.448982 #95534] DEBUG -- :   [1m[36m (2.0ms)[0m  [1mcommit transaction[0m
+D, [2012-09-05T12:26:00.535423 #95534] DEBUG -- :   [1m[35m (0.1ms)[0m  begin transaction
+D, [2012-09-05T12:26:00.536511 #95534] DEBUG -- :   [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)[0m  [["file_name", "images/lines_hold_the_memories_by_agnes_cecile-d38y67i.jpg"], ["height", 200], ["mean_color", 3378536343], ["meta_data", nil], ["quality", nil], ["width", 282]]
+D, [2012-09-05T12:26:00.538380 #95534] DEBUG -- :   [1m[35m (1.5ms)[0m  commit transaction
+D, [2012-09-05T12:26:00.626724 #95534] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+D, [2012-09-05T12:26:00.628618 #95534] DEBUG -- :   [1m[35mSQL (0.5ms)[0m  INSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)  [["file_name", "images/rituale_necessario_by_agnes_cecile-d56fsyf.jpg"], ["height", 200], ["mean_color", 4177706255], ["meta_data", nil], ["quality", nil], ["width", 282]]
+D, [2012-09-05T12:26:00.630761 #95534] DEBUG -- :   [1m[36m (1.6ms)[0m  [1mcommit transaction[0m
+D, [2012-09-05T12:26:00.729593 #95534] DEBUG -- :   [1m[35m (0.1ms)[0m  begin transaction
+D, [2012-09-05T12:26:00.730647 #95534] DEBUG -- :   [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)[0m  [["file_name", "images/l__assenza_by_agnes_cecile-d4y6tsc.jpg"], ["height", 196], ["mean_color", 3497827301], ["meta_data", nil], ["quality", nil], ["width", 300]]
+D, [2012-09-05T12:26:00.732637 #95534] DEBUG -- :   [1m[35m (1.7ms)[0m  commit transaction
+D, [2012-09-05T12:26:00.933615 #95534] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+D, [2012-09-05T12:26:00.934637 #95534] DEBUG -- :   [1m[35mSQL (0.3ms)[0m  INSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)  [["file_name", "images/freshness_of_cold___leonid_afremov_by_leonidafremov-d4oih1n.jpg"], ["height", 200], ["mean_color", 1598014029], ["meta_data", nil], ["quality", nil], ["width", 300]]
+D, [2012-09-05T12:26:00.936703 #95534] DEBUG -- :   [1m[36m (1.8ms)[0m  [1mcommit transaction[0m
+D, [2012-09-05T12:26:01.017469 #95534] DEBUG -- :   [1m[35m (0.1ms)[0m  begin transaction
+D, [2012-09-05T12:26:01.018521 #95534] DEBUG -- :   [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)[0m  [["file_name", "images/just_one_in_a_thousand_by_agnes_cecile-d4sr303.jpg"], ["height", 192], ["mean_color", 3751244948], ["meta_data", nil], ["quality", nil], ["width", 300]]
+D, [2012-09-05T12:26:01.020789 #95534] DEBUG -- :   [1m[35m (2.0ms)[0m  commit transaction
+D, [2012-09-05T12:26:01.126570 #95534] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+D, [2012-09-05T12:26:01.127591 #95534] DEBUG -- :   [1m[35mSQL (0.3ms)[0m  INSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)  [["file_name", "images/misty_river_by_artsaus-d5193us.jpg"], ["height", 200], ["mean_color", 2918674563], ["meta_data", nil], ["quality", nil], ["width", 291]]
+D, [2012-09-05T12:26:01.129607 #95534] DEBUG -- :   [1m[36m (1.7ms)[0m  [1mcommit transaction[0m
+D, [2012-09-05T12:26:01.251277 #95534] DEBUG -- :   [1m[35m (0.1ms)[0m  begin transaction
+D, [2012-09-05T12:26:01.252324 #95534] DEBUG -- :   [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)[0m  [["file_name", "images/a_date_with_the_rain___leonid_afremov_by_leonidafremov-d4qdcmf.jpg"], ["height", 200], ["mean_color", 1645976021], ["meta_data", nil], ["quality", nil], ["width", 298]]
+D, [2012-09-05T12:26:01.253952 #95534] DEBUG -- :   [1m[35m (1.4ms)[0m  commit transaction
+D, [2012-09-05T12:26:01.392773 #95534] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+D, [2012-09-05T12:26:01.393907 #95534] DEBUG -- :   [1m[35mSQL (0.3ms)[0m  INSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)  [["file_name", "images/about_a_new_place___project_by_agnes_cecile-d52lf35.jpg"], ["height", 200], ["mean_color", 4070376950], ["meta_data", nil], ["quality", nil], ["width", 297]]
+D, [2012-09-05T12:26:01.395923 #95534] DEBUG -- :   [1m[36m (1.7ms)[0m  [1mcommit transaction[0m
+D, [2012-09-05T12:26:01.491952 #95534] DEBUG -- :   [1m[35m (0.1ms)[0m  begin transaction
+D, [2012-09-05T12:26:01.492987 #95534] DEBUG -- :   [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)[0m  [["file_name", "images/romantic_moment___leonid_afremov_by_leonidafremov-d4s4idt.jpg"], ["height", 166], ["mean_color", 2088632827], ["meta_data", nil], ["quality", nil], ["width", 300]]
+D, [2012-09-05T12:26:01.495120 #95534] DEBUG -- :   [1m[35m (1.9ms)[0m  commit transaction
+D, [2012-09-05T12:26:01.663803 #95534] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+D, [2012-09-05T12:26:01.664816 #95534] DEBUG -- :   [1m[35mSQL (0.3ms)[0m  INSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)  [["file_name", "images/margay_cat___bic_ballpoint_pen_by_vianaarts-d4nafol.jpg"], ["height", 200], ["mean_color", 1502250208], ["meta_data", nil], ["quality", nil], ["width", 265]]
+D, [2012-09-05T12:26:01.666893 #95534] DEBUG -- :   [1m[36m (1.8ms)[0m  [1mcommit transaction[0m
+D, [2012-09-05T12:26:01.748336 #95534] DEBUG -- :   [1m[35m (0.1ms)[0m  begin transaction
+D, [2012-09-05T12:26:01.749567 #95534] DEBUG -- :   [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)[0m  [["file_name", "images/my_eyes_refuse_to_accept_passive_tears_by_agnes_cecile-d4q8vmb.jpg"], ["height", 152], ["mean_color", 3712896449], ["meta_data", nil], ["quality", nil], ["width", 300]]
+D, [2012-09-05T12:26:01.751893 #95534] DEBUG -- :   [1m[35m (2.0ms)[0m  commit transaction
+D, [2012-09-05T12:26:01.849044 #95534] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+D, [2012-09-05T12:26:01.850127 #95534] DEBUG -- :   [1m[35mSQL (0.3ms)[0m  INSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)  [["file_name", "images/drawing_restraint_by_agnes_cecile-d335edz.jpg"], ["height", 200], ["mean_color", 3370838562], ["meta_data", nil], ["quality", nil], ["width", 291]]
+D, [2012-09-05T12:26:01.852313 #95534] DEBUG -- :   [1m[36m (1.9ms)[0m  [1mcommit transaction[0m
+D, [2012-09-05T12:26:01.924560 #95534] DEBUG -- :   [1m[35m (0.1ms)[0m  begin transaction
+D, [2012-09-05T12:26:01.926493 #95534] DEBUG -- :   [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)[0m  [["file_name", "images/cb6e33e86ae2211b139f586dcd597a6a.jpg"], ["height", 200], ["mean_color", 2166029644], ["meta_data", nil], ["quality", nil], ["width", 200]]
+D, [2012-09-05T12:26:01.928509 #95534] DEBUG -- :   [1m[35m (1.6ms)[0m  commit transaction
+D, [2012-09-05T12:26:02.039116 #95534] DEBUG -- :   [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+D, [2012-09-05T12:26:02.040162 #95534] DEBUG -- :   [1m[35mSQL (0.3ms)[0m  INSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)  [["file_name", "images/la_nostra_infinita_abnegazione_by_agnes_cecile-d412zvb.jpg"], ["height", 190], ["mean_color", 2429145255], ["meta_data", nil], ["quality", nil], ["width", 299]]
+D, [2012-09-05T12:26:02.041862 #95534] DEBUG -- :   [1m[36m (1.4ms)[0m  [1mcommit transaction[0m
+D, [2012-09-05T12:26:02.212795 #95534] DEBUG -- :   [1m[35m (0.1ms)[0m  begin transaction
+D, [2012-09-05T12:26:02.213794 #95534] DEBUG -- :   [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)[0m  [["file_name", "images/fall_date___leonid_afremov_by_leonidafremov-d4s4i84.jpg"], ["height", 198], ["mean_color", 1432735110], ["meta_data", nil], ["quality", nil], ["width", 300]]
+D, [2012-09-05T12:26:02.215774 #95534] DEBUG -- :   [1m[35m (1.7ms)[0m  commit transaction
+D, [2012-09-05T12:26:02.388747 #95534] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+D, [2012-09-05T12:26:02.389905 #95534] DEBUG -- :   [1m[35mSQL (0.4ms)[0m  INSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)  [["file_name", "images/pegasus_by_thedrawinghands-d59ipwg.jpg"], ["height", 200], ["mean_color", 2834263371], ["meta_data", nil], ["quality", nil], ["width", 284]]
+D, [2012-09-05T12:26:02.391997 #95534] DEBUG -- :   [1m[36m (1.9ms)[0m  [1mcommit transaction[0m
+D, [2012-09-05T12:26:02.852628 #95534] DEBUG -- :   [1m[35m (0.1ms)[0m  begin transaction
+D, [2012-09-05T12:26:02.853821 #95534] DEBUG -- :   [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)[0m  [["file_name", "images/wolves_by_maniaadun-d54pxe0.jpg"], ["height", 200], ["mean_color", 2836403209], ["meta_data", nil], ["quality", nil], ["width", 290]]
+D, [2012-09-05T12:26:02.855798 #95534] DEBUG -- :   [1m[35m (1.7ms)[0m  commit transaction
+D, [2012-09-05T12:26:04.780624 #95534] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+D, [2012-09-05T12:26:04.782765 #95534] DEBUG -- :   [1m[35mSQL (0.5ms)[0m  INSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)  [["file_name", "images/clear_vision_by_infuzedmedia-d50wohs.jpg"], ["height", 200], ["mean_color", 2666981241], ["meta_data", nil], ["quality", nil], ["width", 300]]
+D, [2012-09-05T12:26:04.785081 #95534] DEBUG -- :   [1m[36m (1.9ms)[0m  [1mcommit transaction[0m
+D, [2012-09-05T12:26:04.902008 #95534] DEBUG -- :   [1m[35m (0.1ms)[0m  begin transaction
+D, [2012-09-05T12:26:04.903037 #95534] DEBUG -- :   [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)[0m  [["file_name", "images/giants_gathering_by_obojkovski-d4gab29.jpg"], ["height", 200], ["mean_color", 2173125684], ["meta_data", nil], ["quality", nil], ["width", 299]]
+D, [2012-09-05T12:26:04.905116 #95534] DEBUG -- :   [1m[35m (1.8ms)[0m  commit transaction
+D, [2012-09-05T12:26:04.986980 #95534] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+D, [2012-09-05T12:26:04.988014 #95534] DEBUG -- :   [1m[35mSQL (0.3ms)[0m  INSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)  [["file_name", "images/red_arrows_bw_by_skerwish-d4urx6j.jpg"], ["height", 200], ["mean_color", 2428682802], ["meta_data", nil], ["quality", nil], ["width", 300]]
+D, [2012-09-05T12:26:04.989860 #95534] DEBUG -- :   [1m[36m (1.6ms)[0m  [1mcommit transaction[0m
+D, [2012-09-05T12:26:05.083487 #95534] DEBUG -- :   [1m[35m (0.1ms)[0m  begin transaction
+D, [2012-09-05T12:26:05.085055 #95534] DEBUG -- :   [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)[0m  [["file_name", "images/lions__white_majesty_by_spike83-d1oux4p.jpg"], ["height", 188], ["mean_color", 633652383], ["meta_data", nil], ["quality", nil], ["width", 300]]
+D, [2012-09-05T12:26:05.087011 #95534] DEBUG -- :   [1m[35m (1.6ms)[0m  commit transaction
+D, [2012-09-05T12:26:05.189118 #95534] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+D, [2012-09-05T12:26:05.190098 #95534] DEBUG -- :   [1m[35mSQL (0.3ms)[0m  INSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)  [["file_name", "images/13_by_annshakti-d4nv9bo.jpg"], ["height", 199], ["mean_color", 2381842663], ["meta_data", nil], ["quality", nil], ["width", 300]]
+D, [2012-09-05T12:26:05.192113 #95534] DEBUG -- :   [1m[36m (1.7ms)[0m  [1mcommit transaction[0m
+D, [2012-09-05T12:26:05.296564 #95534] DEBUG -- :   [1m[35m (0.1ms)[0m  begin transaction
+D, [2012-09-05T12:26:05.297625 #95534] DEBUG -- :   [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)[0m  [["file_name", "images/taste_of_summer_iii_by_iustyn-d21wbp6.jpg"], ["height", 200], ["mean_color", 1869828148], ["meta_data", nil], ["quality", nil], ["width", 300]]
+D, [2012-09-05T12:26:05.299529 #95534] DEBUG -- :   [1m[35m (1.6ms)[0m  commit transaction
+D, [2012-09-05T12:26:05.411654 #95534] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+D, [2012-09-05T12:26:05.413132 #95534] DEBUG -- :   [1m[35mSQL (0.4ms)[0m  INSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)  [["file_name", "images/norway_by_denjazzer-d4ai5xy.jpg"], ["height", 200], ["mean_color", 1780256022], ["meta_data", nil], ["quality", nil], ["width", 299]]
+D, [2012-09-05T12:26:05.415131 #95534] DEBUG -- :   [1m[36m (1.6ms)[0m  [1mcommit transaction[0m
+D, [2012-09-05T12:26:05.505775 #95534] DEBUG -- :   [1m[35m (0.1ms)[0m  begin transaction
+D, [2012-09-05T12:26:05.507032 #95534] DEBUG -- :   [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)[0m  [["file_name", "images/music_is_everywhere_by_darthko-d3qifcq.jpg"], ["height", 176], ["mean_color", 3028425973], ["meta_data", nil], ["quality", nil], ["width", 300]]
+D, [2012-09-05T12:26:05.509082 #95534] DEBUG -- :   [1m[35m (1.7ms)[0m  commit transaction
+D, [2012-09-05T12:26:05.610863 #95534] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+D, [2012-09-05T12:26:05.612041 #95534] DEBUG -- :   [1m[35mSQL (0.3ms)[0m  INSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)  [["file_name", "images/seoul_creek_by_fotoshane-d1nbg0m.jpg"], ["height", 200], ["mean_color", 1271241114], ["meta_data", nil], ["quality", nil], ["width", 289]]
+D, [2012-09-05T12:26:05.613914 #95534] DEBUG -- :   [1m[36m (1.6ms)[0m  [1mcommit transaction[0m
+D, [2012-09-05T12:26:05.767675 #95534] DEBUG -- :   [1m[35m (0.1ms)[0m  begin transaction
+D, [2012-09-05T12:26:05.768737 #95534] DEBUG -- :   [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)[0m  [["file_name", "images/i_don__t_want_to_know_by_grosha77-d5a6hyr.jpg"], ["height", 200], ["mean_color", 2807189058], ["meta_data", nil], ["quality", nil], ["width", 300]]
+D, [2012-09-05T12:26:05.770935 #95534] DEBUG -- :   [1m[35m (1.9ms)[0m  commit transaction
+D, [2012-09-05T12:26:05.860632 #95534] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+D, [2012-09-05T12:26:05.861792 #95534] DEBUG -- :   [1m[35mSQL (0.3ms)[0m  INSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)  [["file_name", "images/Bay_of_Fires_Final_by_nismo_mark.jpg"], ["height", 114], ["mean_color", 1275318647], ["meta_data", nil], ["quality", nil], ["width", 300]]
+D, [2012-09-05T12:26:05.864024 #95534] DEBUG -- :   [1m[36m (2.0ms)[0m  [1mcommit transaction[0m
+D, [2012-09-05T12:26:05.947583 #95534] DEBUG -- :   [1m[35m (0.1ms)[0m  begin transaction
+D, [2012-09-05T12:26:05.948786 #95534] DEBUG -- :   [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)[0m  [["file_name", "images/Night_View_Golden_Gate_Bridge_by_xelement.jpg"], ["height", 134], ["mean_color", 864448196], ["meta_data", nil], ["quality", nil], ["width", 300]]
+D, [2012-09-05T12:26:05.950770 #95534] DEBUG -- :   [1m[35m (1.7ms)[0m  commit transaction
+D, [2012-09-05T12:26:06.021936 #95534] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+D, [2012-09-05T12:26:06.023511 #95534] DEBUG -- :   [1m[35mSQL (0.4ms)[0m  INSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)  [["file_name", "images/_feel_the_music__by_candymax-d54xfxs.jpg"], ["height", 200], ["mean_color", 2389460437], ["meta_data", nil], ["quality", nil], ["width", 200]]
+D, [2012-09-05T12:26:06.025896 #95534] DEBUG -- :   [1m[36m (1.9ms)[0m  [1mcommit transaction[0m
+D, [2012-09-05T12:26:06.116186 #95534] DEBUG -- :   [1m[35m (0.1ms)[0m  begin transaction
+D, [2012-09-05T12:26:06.117698 #95534] DEBUG -- :   [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)[0m  [["file_name", "images/a0302a69b993bf14be4bbdaf4ddca90a.jpg"], ["height", 200], ["mean_color", 1264977317], ["meta_data", nil], ["quality", nil], ["width", 239]]
+D, [2012-09-05T12:26:06.119970 #95534] DEBUG -- :   [1m[35m (1.8ms)[0m  commit transaction
+D, [2012-09-05T12:26:06.203016 #95534] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+D, [2012-09-05T12:26:06.204173 #95534] DEBUG -- :   [1m[35mSQL (0.4ms)[0m  INSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)  [["file_name", "images/444a4977186de53f23a56f3c967f2a18-d4xsz7z.jpg"], ["height", 200], ["mean_color", 3021067931], ["meta_data", nil], ["quality", nil], ["width", 200]]
+D, [2012-09-05T12:26:06.206242 #95534] DEBUG -- :   [1m[36m (1.7ms)[0m  [1mcommit transaction[0m
+D, [2012-09-05T12:26:06.363611 #95534] DEBUG -- :   [1m[35m (0.1ms)[0m  begin transaction
+D, [2012-09-05T12:26:06.364741 #95534] DEBUG -- :   [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)[0m  [["file_name", "images/Greenwich_Yachting_Club_by_Seanonel.jpg"], ["height", 200], ["mean_color", 1252240290], ["meta_data", nil], ["quality", nil], ["width", 287]]
+D, [2012-09-05T12:26:06.366930 #95534] DEBUG -- :   [1m[35m (1.9ms)[0m  commit transaction
+D, [2012-09-05T12:26:06.533441 #95534] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+D, [2012-09-05T12:26:06.534495 #95534] DEBUG -- :   [1m[35mSQL (0.3ms)[0m  INSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)  [["file_name", "images/demons_and_angels_by_lordskizz-d3cfdal.jpg"], ["height", 199], ["mean_color", 1159198807], ["meta_data", nil], ["quality", nil], ["width", 299]]
+D, [2012-09-05T12:26:06.536365 #95534] DEBUG -- :   [1m[36m (1.6ms)[0m  [1mcommit transaction[0m
+D, [2012-09-05T12:26:06.694599 #95534] DEBUG -- :   [1m[35m (0.1ms)[0m  begin transaction
+D, [2012-09-05T12:26:06.695967 #95534] DEBUG -- :   [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)[0m  [["file_name", "images/the_pilot_by_curlytops.jpg"], ["height", 200], ["mean_color", 2925563035], ["meta_data", nil], ["quality", nil], ["width", 200]]
+D, [2012-09-05T12:26:06.697919 #95534] DEBUG -- :   [1m[35m (1.6ms)[0m  commit transaction
+D, [2012-09-05T12:26:06.780515 #95534] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+D, [2012-09-05T12:26:06.781679 #95534] DEBUG -- :   [1m[35mSQL (0.3ms)[0m  INSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)  [["file_name", "images/football_on_the_beach_by_isacg-d4xakne.jpg"], ["height", 200], ["mean_color", 1043545879], ["meta_data", nil], ["quality", nil], ["width", 278]]
+D, [2012-09-05T12:26:06.783570 #95534] DEBUG -- :   [1m[36m (1.6ms)[0m  [1mcommit transaction[0m
+D, [2012-09-05T12:26:08.610266 #95534] DEBUG -- :   [1m[35m (0.1ms)[0m  begin transaction
+D, [2012-09-05T12:26:08.611991 #95534] DEBUG -- :   [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)[0m  [["file_name", "images/fencing_voodoo_by_albertoarni-d5cumu1.jpg"], ["height", 200], ["mean_color", 4045320970], ["meta_data", nil], ["quality", nil], ["width", 200]]
+D, [2012-09-05T12:26:08.628485 #95534] DEBUG -- :   [1m[35m (16.1ms)[0m  commit transaction
+D, [2012-09-05T12:26:09.019517 #95534] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+D, [2012-09-05T12:26:09.020514 #95534] DEBUG -- :   [1m[35mSQL (0.3ms)[0m  INSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)  [["file_name", "images/__when___by_karincoma.jpg"], ["height", 200], ["mean_color", 1045714636], ["meta_data", nil], ["quality", nil], ["width", 275]]
+D, [2012-09-05T12:26:09.022376 #95534] DEBUG -- :   [1m[36m (1.6ms)[0m  [1mcommit transaction[0m
+D, [2012-09-05T12:26:12.186038 #95534] DEBUG -- :   [1m[35m (0.2ms)[0m  begin transaction
+D, [2012-09-05T12:26:12.187846 #95534] DEBUG -- :   [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)[0m  [["file_name", "images/seasonscape_by_alexiuss-d15deeg.jpg"], ["height", 156], ["mean_color", 1530186124], ["meta_data", nil], ["quality", nil], ["width", 300]]
+D, [2012-09-05T12:26:12.190430 #95534] DEBUG -- :   [1m[35m (2.1ms)[0m  commit transaction
+D, [2012-09-05T12:26:12.295285 #95534] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+D, [2012-09-05T12:26:12.296321 #95534] DEBUG -- :   [1m[35mSQL (0.3ms)[0m  INSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)  [["file_name", "images/princess_mononoke_by_sanguisgelidus-d4velzs.jpg"], ["height", 200], ["mean_color", 1645063806], ["meta_data", nil], ["quality", nil], ["width", 274]]
+D, [2012-09-05T12:26:12.298378 #95534] DEBUG -- :   [1m[36m (1.8ms)[0m  [1mcommit transaction[0m
+D, [2012-09-05T12:26:12.376178 #95534] DEBUG -- :   [1m[35m (0.1ms)[0m  begin transaction
+D, [2012-09-05T12:26:12.377711 #95534] DEBUG -- :   [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)[0m  [["file_name", "images/soulshine_by_apofiss-d590s70.jpg"], ["height", 169], ["mean_color", 1489957177], ["meta_data", nil], ["quality", nil], ["width", 300]]
+D, [2012-09-05T12:26:12.379748 #95534] DEBUG -- :   [1m[35m (1.6ms)[0m  commit transaction
+D, [2012-09-05T12:26:12.460134 #95534] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+D, [2012-09-05T12:26:12.461935 #95534] DEBUG -- :   [1m[35mSQL (0.5ms)[0m  INSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)  [["file_name", "images/mutual_paper_by_apofiss-d3fuvv2.jpg"], ["height", 169], ["mean_color", 866769885], ["meta_data", nil], ["quality", nil], ["width", 300]]
+D, [2012-09-05T12:26:12.464082 #95534] DEBUG -- :   [1m[36m (1.6ms)[0m  [1mcommit transaction[0m
+D, [2012-09-05T12:26:12.573093 #95534] DEBUG -- :   [1m[35m (0.1ms)[0m  begin transaction
+D, [2012-09-05T12:26:12.574587 #95534] DEBUG -- :   [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)[0m  [["file_name", "images/overture_by_vhm_alex-d51qh67.jpg"], ["height", 188], ["mean_color", 2475611054], ["meta_data", nil], ["quality", nil], ["width", 300]]
+D, [2012-09-05T12:26:12.576684 #95534] DEBUG -- :   [1m[35m (1.6ms)[0m  commit transaction
+D, [2012-09-05T12:26:12.683204 #95534] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+D, [2012-09-05T12:26:12.684882 #95534] DEBUG -- :   [1m[35mSQL (0.5ms)[0m  INSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)  [["file_name", "images/orion_by_apofiss-d4n4l9n.jpg"], ["height", 200], ["mean_color", 1459176224], ["meta_data", nil], ["quality", nil], ["width", 250]]
+D, [2012-09-05T12:26:12.687041 #95534] DEBUG -- :   [1m[36m (1.7ms)[0m  [1mcommit transaction[0m
+D, [2012-09-05T12:26:12.870011 #95534] DEBUG -- :   [1m[35m (0.1ms)[0m  begin transaction
+D, [2012-09-05T12:26:12.871088 #95534] DEBUG -- :   [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)[0m  [["file_name", "images/Hope_Leaves_by_vhm_alex.jpg"], ["height", 188], ["mean_color", 1454242417], ["meta_data", nil], ["quality", nil], ["width", 300]]
+D, [2012-09-05T12:26:12.872814 #95534] DEBUG -- :   [1m[35m (1.5ms)[0m  commit transaction
+D, [2012-09-05T12:26:12.968813 #95534] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+D, [2012-09-05T12:26:12.969920 #95534] DEBUG -- :   [1m[35mSQL (0.3ms)[0m  INSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)  [["file_name", "images/closer_by_vhm_alex-dt10so.jpg"], ["height", 188], ["mean_color", 2794085667], ["meta_data", nil], ["quality", nil], ["width", 300]]
+D, [2012-09-05T12:26:12.971944 #95534] DEBUG -- :   [1m[36m (1.8ms)[0m  [1mcommit transaction[0m
+D, [2012-09-05T12:26:13.060145 #95534] DEBUG -- :   [1m[35m (0.1ms)[0m  begin transaction
+D, [2012-09-05T12:26:13.061274 #95534] DEBUG -- :   [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)[0m  [["file_name", "images/Sleepy_Sun_by_colpo.jpg"], ["height", 169], ["mean_color", 2009213616], ["meta_data", nil], ["quality", nil], ["width", 300]]
+D, [2012-09-05T12:26:13.063453 #95534] DEBUG -- :   [1m[35m (1.9ms)[0m  commit transaction
+D, [2012-09-05T12:26:13.208705 #95534] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+D, [2012-09-05T12:26:13.210586 #95534] DEBUG -- :   [1m[35mSQL (0.4ms)[0m  INSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)  [["file_name", "images/5fb5acf0d4504a346875a49e40abc76e-d4k2y3k.png"], ["height", 150], ["mean_color", 1455986165], ["meta_data", nil], ["quality", nil], ["width", 300]]
+D, [2012-09-05T12:26:13.212588 #95534] DEBUG -- :   [1m[36m (1.6ms)[0m  [1mcommit transaction[0m
+D, [2012-09-05T12:26:13.387366 #95534] DEBUG -- :   [1m[35m (0.1ms)[0m  begin transaction
+D, [2012-09-05T12:26:13.388603 #95534] DEBUG -- :   [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)[0m  [["file_name", "images/do_not_disturb_by_apofiss-d3b199g.jpg"], ["height", 200], ["mean_color", 1642444598], ["meta_data", nil], ["quality", nil], ["width", 250]]
+D, [2012-09-05T12:26:13.390626 #95534] DEBUG -- :   [1m[35m (1.7ms)[0m  commit transaction
+D, [2012-09-05T12:26:13.481628 #95534] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+D, [2012-09-05T12:26:13.482732 #95534] DEBUG -- :   [1m[35mSQL (0.3ms)[0m  INSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)  [["file_name", "images/dino_paper_by_apofiss-d4rcwdh.jpg"], ["height", 188], ["mean_color", 1845319966], ["meta_data", nil], ["quality", nil], ["width", 300]]
+D, [2012-09-05T12:26:13.484833 #95534] DEBUG -- :   [1m[36m (1.8ms)[0m  [1mcommit transaction[0m
+D, [2012-09-05T12:26:13.580547 #95534] DEBUG -- :   [1m[35m (0.1ms)[0m  begin transaction
+D, [2012-09-05T12:26:13.581792 #95534] DEBUG -- :   [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)[0m  [["file_name", "images/Praedestinatio_by_taenaron.jpg"], ["height", 188], ["mean_color", 842064592], ["meta_data", nil], ["quality", nil], ["width", 300]]
+D, [2012-09-05T12:26:13.584106 #95534] DEBUG -- :   [1m[35m (2.0ms)[0m  commit transaction
+D, [2012-09-05T12:26:13.669278 #95534] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+D, [2012-09-05T12:26:13.670850 #95534] DEBUG -- :   [1m[35mSQL (0.4ms)[0m  INSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)  [["file_name", "images/World_Map___Upside_Down_by_vladstudio.jpg"], ["height", 200], ["mean_color", 1978553784], ["meta_data", nil], ["quality", nil], ["width", 267]]
+D, [2012-09-05T12:26:13.672955 #95534] DEBUG -- :   [1m[36m (1.7ms)[0m  [1mcommit transaction[0m
+D, [2012-09-05T12:26:13.755301 #95534] DEBUG -- :   [1m[35m (0.1ms)[0m  begin transaction
+D, [2012-09-05T12:26:13.756986 #95534] DEBUG -- :   [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)[0m  [["file_name", "images/sharks_unleashed_by_taenaron-d5bad07.jpg"], ["height", 100], ["mean_color", 1632928002], ["meta_data", nil], ["quality", nil], ["width", 302]]
+D, [2012-09-05T12:26:13.759155 #95534] DEBUG -- :   [1m[35m (1.7ms)[0m  commit transaction
+D, [2012-09-05T12:26:13.839930 #95534] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+D, [2012-09-05T12:26:13.841309 #95534] DEBUG -- :   [1m[35mSQL (0.5ms)[0m  INSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)  [["file_name", "images/dampling_po_by_apofiss-d3j7ztw.jpg"], ["height", 169], ["mean_color", 2263303859], ["meta_data", nil], ["quality", nil], ["width", 300]]
+D, [2012-09-05T12:26:13.847062 #95534] DEBUG -- :   [1m[36m (5.1ms)[0m  [1mcommit transaction[0m
+D, [2012-09-05T12:26:13.931705 #95534] DEBUG -- :   [1m[35m (0.1ms)[0m  begin transaction
+D, [2012-09-05T12:26:13.933005 #95534] DEBUG -- :   [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)[0m  [["file_name", "images/nyan_realm_by_apofiss-d462n42.jpg"], ["height", 169], ["mean_color", 1453318702], ["meta_data", nil], ["quality", nil], ["width", 300]]
+D, [2012-09-05T12:26:13.934905 #95534] DEBUG -- :   [1m[35m (1.6ms)[0m  commit transaction
+D, [2012-09-05T12:26:14.017191 #95534] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+D, [2012-09-05T12:26:14.018244 #95534] DEBUG -- :   [1m[35mSQL (0.3ms)[0m  INSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)  [["file_name", "images/team_frog_by_apofiss-d3jr5z8.jpg"], ["height", 169], ["mean_color", 1026864857], ["meta_data", nil], ["quality", nil], ["width", 300]]
+D, [2012-09-05T12:26:14.020449 #95534] DEBUG -- :   [1m[36m (1.9ms)[0m  [1mcommit transaction[0m
+D, [2012-09-05T12:26:14.106190 #95534] DEBUG -- :   [1m[35m (0.1ms)[0m  begin transaction
+D, [2012-09-05T12:26:14.107223 #95534] DEBUG -- :   [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)[0m  [["file_name", "images/8708267fad4b787907b26de493bce666.png"], ["height", 188], ["mean_color", 718156193], ["meta_data", nil], ["quality", nil], ["width", 300]]
+D, [2012-09-05T12:26:14.109139 #95534] DEBUG -- :   [1m[35m (1.6ms)[0m  commit transaction
+D, [2012-09-05T12:26:14.194041 #95534] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+D, [2012-09-05T12:26:14.195102 #95534] DEBUG -- :   [1m[35mSQL (0.3ms)[0m  INSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)  [["file_name", "images/jellyfish_queen_by_apofiss-d4gctku.jpg"], ["height", 169], ["mean_color", 1276161710], ["meta_data", nil], ["quality", nil], ["width", 300]]
+D, [2012-09-05T12:26:14.197163 #95534] DEBUG -- :   [1m[36m (1.8ms)[0m  [1mcommit transaction[0m
+D, [2012-09-05T12:26:14.276859 #95534] DEBUG -- :   [1m[35m (0.1ms)[0m  begin transaction
+D, [2012-09-05T12:26:14.277947 #95534] DEBUG -- :   [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)[0m  [["file_name", "images/little_red_yin_by_apofiss-d34spg1.jpg"], ["height", 169], ["mean_color", 1313709504], ["meta_data", nil], ["quality", nil], ["width", 300]]
+D, [2012-09-05T12:26:14.279964 #95534] DEBUG -- :   [1m[35m (1.8ms)[0m  commit transaction
+D, [2012-09-05T12:26:14.368637 #95534] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+D, [2012-09-05T12:26:14.370186 #95534] DEBUG -- :   [1m[35mSQL (0.4ms)[0m  INSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)  [["file_name", "images/sunset_skyline_wallpaper_by_neokeitaro-d5352ch.jpg"], ["height", 169], ["mean_color", 2926869581], ["meta_data", nil], ["quality", nil], ["width", 300]]
+D, [2012-09-05T12:26:14.372204 #95534] DEBUG -- :   [1m[36m (1.6ms)[0m  [1mcommit transaction[0m
+D, [2012-09-05T12:26:14.475238 #95534] DEBUG -- :   [1m[35m (0.1ms)[0m  begin transaction
+D, [2012-09-05T12:26:14.476860 #95534] DEBUG -- :   [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)[0m  [["file_name", "images/Where_I_End_and_You_Begin_by_vhm_alex.jpg"], ["height", 188], ["mean_color", 3101568360], ["meta_data", nil], ["quality", nil], ["width", 300]]
+D, [2012-09-05T12:26:14.478850 #95534] DEBUG -- :   [1m[35m (1.6ms)[0m  commit transaction
+D, [2012-09-05T12:26:17.788968 #95534] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+D, [2012-09-05T12:26:17.790103 #95534] DEBUG -- :   [1m[35mSQL (0.4ms)[0m  INSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)  [["file_name", "images/feel_good_inc_by_hypnotia-d54nr1b.jpg"], ["height", 200], ["mean_color", 3506165821], ["meta_data", nil], ["quality", nil], ["width", 300]]
+D, [2012-09-05T12:26:17.792760 #95534] DEBUG -- :   [1m[36m (2.4ms)[0m  [1mcommit transaction[0m
+D, [2012-09-05T12:26:17.969188 #95534] DEBUG -- :   [1m[35m (0.1ms)[0m  begin transaction
+D, [2012-09-05T12:26:17.970243 #95534] DEBUG -- :   [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)[0m  [["file_name", "images/adventure_time_by_paintmarvels-d4y46x8.png"], ["height", 200], ["mean_color", 3161215441], ["meta_data", nil], ["quality", nil], ["width", 200]]
+D, [2012-09-05T12:26:17.972450 #95534] DEBUG -- :   [1m[35m (1.9ms)[0m  commit transaction
+D, [2012-09-05T12:26:18.145834 #95534] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+D, [2012-09-05T12:26:18.147319 #95534] DEBUG -- :   [1m[35mSQL (0.4ms)[0m  INSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)  [["file_name", "images/ally_wallpaper_by_shiniez-d4m66ak.jpg"], ["height", 193], ["mean_color", 1870389706], ["meta_data", nil], ["quality", nil], ["width", 300]]
+D, [2012-09-05T12:26:18.149269 #95534] DEBUG -- :   [1m[36m (1.6ms)[0m  [1mcommit transaction[0m
+D, [2012-09-05T12:26:18.306972 #95534] DEBUG -- :   [1m[35m (0.1ms)[0m  begin transaction
+D, [2012-09-05T12:26:18.308043 #95534] DEBUG -- :   [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)[0m  [["file_name", "images/tangled___rapunzel___lanterns_by_ukecloud-d39menv.jpg"], ["height", 200], ["mean_color", 2401895063], ["meta_data", nil], ["quality", nil], ["width", 250]]
+D, [2012-09-05T12:26:18.310024 #95534] DEBUG -- :   [1m[35m (1.7ms)[0m  commit transaction
+D, [2012-09-05T12:26:18.551506 #95534] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+D, [2012-09-05T12:26:18.552552 #95534] DEBUG -- :   [1m[35mSQL (0.3ms)[0m  INSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)  [["file_name", "images/captain_in_london_by_alexiuss-d4hhudj.jpg"], ["height", 200], ["mean_color", 652498491], ["meta_data", nil], ["quality", nil], ["width", 300]]
+D, [2012-09-05T12:26:18.554774 #95534] DEBUG -- :   [1m[36m (1.9ms)[0m  [1mcommit transaction[0m
+D, [2012-09-05T12:26:18.793379 #95534] DEBUG -- :   [1m[35m (0.1ms)[0m  begin transaction
+D, [2012-09-05T12:26:18.794413 #95534] DEBUG -- :   [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)[0m  [["file_name", "images/The_circus_of_South_Park_by_Rivan145th.jpg"], ["height", 200], ["mean_color", 1958999417], ["meta_data", nil], ["quality", nil], ["width", 285]]
+D, [2012-09-05T12:26:18.796732 #95534] DEBUG -- :   [1m[35m (2.0ms)[0m  commit transaction
+D, [2012-09-05T12:26:19.041544 #95534] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+D, [2012-09-05T12:26:19.042618 #95534] DEBUG -- :   [1m[35mSQL (0.3ms)[0m  INSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)  [["file_name", "images/Daily_Life_by_Ennokni.jpg"], ["height", 200], ["mean_color", 4123510482], ["meta_data", nil], ["quality", nil], ["width", 201]]
+D, [2012-09-05T12:26:19.044656 #95534] DEBUG -- :   [1m[36m (1.8ms)[0m  [1mcommit transaction[0m
+D, [2012-09-05T12:26:19.142357 #95534] DEBUG -- :   [1m[35m (0.1ms)[0m  begin transaction
+D, [2012-09-05T12:26:19.143480 #95534] DEBUG -- :   [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)[0m  [["file_name", "images/beware_if_J_I_L_L__by_napoleoni3art.jpg"], ["height", 200], ["mean_color", 3619137177], ["meta_data", nil], ["quality", nil], ["width", 295]]
+D, [2012-09-05T12:26:19.145225 #95534] DEBUG -- :   [1m[35m (1.5ms)[0m  commit transaction
+D, [2012-09-05T12:26:19.227451 #95534] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+D, [2012-09-05T12:26:19.228602 #95534] DEBUG -- :   [1m[35mSQL (0.4ms)[0m  INSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)  [["file_name", "images/arc_and_alastor_by_daekazu-d5cvost.jpg"], ["height", 200], ["mean_color", 3266610572], ["meta_data", nil], ["quality", nil], ["width", 268]]
+D, [2012-09-05T12:26:19.230589 #95534] DEBUG -- :   [1m[36m (1.6ms)[0m  [1mcommit transaction[0m
+D, [2012-09-05T12:26:19.362827 #95534] DEBUG -- :   [1m[35m (0.1ms)[0m  begin transaction
+D, [2012-09-05T12:26:19.363854 #95534] DEBUG -- :   [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)[0m  [["file_name", "images/pewdiepony_and_stephano_by_lightningtumble-d5cv7jp.png"], ["height", 169], ["mean_color", 1604401993], ["meta_data", nil], ["quality", nil], ["width", 300]]
+D, [2012-09-05T12:26:19.365838 #95534] DEBUG -- :   [1m[35m (1.7ms)[0m  commit transaction
+D, [2012-09-05T12:26:19.442862 #95534] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+D, [2012-09-05T12:26:19.443949 #95534] DEBUG -- :   [1m[35mSQL (0.3ms)[0m  INSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)  [["file_name", "images/02d4433cdda6e6beb975038458b27de6-d5bzuke.png"], ["height", 200], ["mean_color", 1228758793], ["meta_data", nil], ["quality", nil], ["width", 257]]
+D, [2012-09-05T12:26:19.445808 #95534] DEBUG -- :   [1m[36m (1.6ms)[0m  [1mcommit transaction[0m
+D, [2012-09-05T12:26:21.348603 #95534] DEBUG -- :   [1m[35m (0.1ms)[0m  begin transaction
+D, [2012-09-05T12:26:21.350083 #95534] DEBUG -- :   [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)[0m  [["file_name", "images/1f7af4d6634b543f41bc00eeb3ec7b24-d56bmx6.jpg"], ["height", 200], ["mean_color", 2382033952], ["meta_data", nil], ["quality", nil], ["width", 293]]
+D, [2012-09-05T12:26:21.352097 #95534] DEBUG -- :   [1m[35m (1.6ms)[0m  commit transaction
+D, [2012-09-05T12:26:21.474873 #95534] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+D, [2012-09-05T12:26:21.475903 #95534] DEBUG -- :   [1m[35mSQL (0.3ms)[0m  INSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)  [["file_name", "images/traditionalart_vs__digitalart_by_namirenn-d52aaqo.png"], ["height", 200], ["mean_color", 2837499246], ["meta_data", nil], ["quality", nil], ["width", 294]]
+D, [2012-09-05T12:26:21.477828 #95534] DEBUG -- :   [1m[36m (1.6ms)[0m  [1mcommit transaction[0m
+D, [2012-09-05T12:26:21.603221 #95534] DEBUG -- :   [1m[35m (0.1ms)[0m  begin transaction
+D, [2012-09-05T12:26:21.604259 #95534] DEBUG -- :   [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)[0m  [["file_name", "images/ghibli___finish_work_by_hyung86-d4kbsc0.jpg"], ["height", 139], ["mean_color", 2339738564], ["meta_data", nil], ["quality", nil], ["width", 300]]
+D, [2012-09-05T12:26:21.606173 #95534] DEBUG -- :   [1m[35m (1.7ms)[0m  commit transaction
+D, [2012-09-05T12:26:21.820695 #95534] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+D, [2012-09-05T12:26:21.821814 #95534] DEBUG -- :   [1m[35mSQL (0.3ms)[0m  INSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)  [["file_name", "images/3__2__1____Let__s_Jam_by_Nanahra.jpg"], ["height", 200], ["mean_color", 1831378495], ["meta_data", nil], ["quality", nil], ["width", 283]]
+D, [2012-09-05T12:26:21.823922 #95534] DEBUG -- :   [1m[36m (1.8ms)[0m  [1mcommit transaction[0m
+D, [2012-09-05T12:26:21.968342 #95534] DEBUG -- :   [1m[35m (0.1ms)[0m  begin transaction
+D, [2012-09-05T12:26:21.969719 #95534] DEBUG -- :   [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)[0m  [["file_name", "images/61dc8c26a79690a41a92aa7141624985-d45n39h.jpg"], ["height", 200], ["mean_color", 2850997185], ["meta_data", nil], ["quality", nil], ["width", 274]]
+D, [2012-09-05T12:26:21.971734 #95534] DEBUG -- :   [1m[35m (1.7ms)[0m  commit transaction
+D, [2012-09-05T12:26:22.050291 #95534] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+D, [2012-09-05T12:26:22.051514 #95534] DEBUG -- :   [1m[35mSQL (0.4ms)[0m  INSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)  [["file_name", "images/3__2__1____Let__s_Relax____by_Nanahra.jpg"], ["height", 200], ["mean_color", 409541461], ["meta_data", nil], ["quality", nil], ["width", 283]]
+D, [2012-09-05T12:26:22.053905 #95534] DEBUG -- :   [1m[36m (2.1ms)[0m  [1mcommit transaction[0m
+D, [2012-09-05T12:26:22.237082 #95534] DEBUG -- :   [1m[35m (0.1ms)[0m  begin transaction
+D, [2012-09-05T12:26:22.238382 #95534] DEBUG -- :   [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)[0m  [["file_name", "images/incandescence_by_johnsu-d52tdoq.png"], ["height", 169], ["mean_color", 1516074080], ["meta_data", nil], ["quality", nil], ["width", 300]]
+D, [2012-09-05T12:26:22.240732 #95534] DEBUG -- :   [1m[35m (2.0ms)[0m  commit transaction
+D, [2012-09-05T12:26:22.415442 #95534] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+D, [2012-09-05T12:26:22.416714 #95534] DEBUG -- :   [1m[35mSQL (0.3ms)[0m  INSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)  [["file_name", "images/3__2__1____Let__s_Jam_AGAIN_by_Nanahra.jpg"], ["height", 200], ["mean_color", 1205476470], ["meta_data", nil], ["quality", nil], ["width", 283]]
+D, [2012-09-05T12:26:22.418722 #95534] DEBUG -- :   [1m[36m (1.7ms)[0m  [1mcommit transaction[0m
+D, [2012-09-05T12:26:22.517062 #95534] DEBUG -- :   [1m[35m (0.1ms)[0m  begin transaction
+D, [2012-09-05T12:26:22.518095 #95534] DEBUG -- :   [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)[0m  [["file_name", "images/carciphona___duel_by_shilin-d4g7rtn.jpg"], ["height", 194], ["mean_color", 1923890981], ["meta_data", nil], ["quality", nil], ["width", 300]]
+D, [2012-09-05T12:26:22.519858 #95534] DEBUG -- :   [1m[35m (1.5ms)[0m  commit transaction
+D, [2012-09-05T12:26:22.594767 #95534] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+D, [2012-09-05T12:26:22.596285 #95534] DEBUG -- :   [1m[35mSQL (0.4ms)[0m  INSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)  [["file_name", "images/cowboy_bebop__ed__realism__by_shilesque-d59brym.jpg"], ["height", 200], ["mean_color", 2285506425], ["meta_data", nil], ["quality", nil], ["width", 200]]
+D, [2012-09-05T12:26:22.598364 #95534] DEBUG -- :   [1m[36m (1.6ms)[0m  [1mcommit transaction[0m
+D, [2012-09-05T12:26:22.674574 #95534] DEBUG -- :   [1m[35m (0.1ms)[0m  begin transaction
+D, [2012-09-05T12:26:22.675703 #95534] DEBUG -- :   [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)[0m  [["file_name", "images/cowboy_bebop__spike_spiegel__realism__by_shilesque-d4t23ru.jpg"], ["height", 200], ["mean_color", 1349448661], ["meta_data", nil], ["quality", nil], ["width", 200]]
+D, [2012-09-05T12:26:22.677640 #95534] DEBUG -- :   [1m[35m (1.6ms)[0m  commit transaction
+D, [2012-09-05T12:26:22.773536 #95534] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+D, [2012-09-05T12:26:22.774598 #95534] DEBUG -- :   [1m[35mSQL (0.3ms)[0m  INSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)  [["file_name", "images/carciphona___toccata_by_shilin-d4evbnr.jpg"], ["height", 196], ["mean_color", 3826891183], ["meta_data", nil], ["quality", nil], ["width", 300]]
+D, [2012-09-05T12:26:22.776288 #95534] DEBUG -- :   [1m[36m (1.4ms)[0m  [1mcommit transaction[0m
+D, [2012-09-05T12:26:22.987313 #95534] DEBUG -- :   [1m[35m (0.1ms)[0m  begin transaction
+D, [2012-09-05T12:26:22.988337 #95534] DEBUG -- :   [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)[0m  [["file_name", "images/vermilion_paradise___246_by_emperpep-d4cvrkf.jpg"], ["height", 200], ["mean_color", 3500824367], ["meta_data", nil], ["quality", nil], ["width", 285]]
+D, [2012-09-05T12:26:22.990365 #95534] DEBUG -- :   [1m[35m (1.8ms)[0m  commit transaction
+D, [2012-09-05T12:26:23.107352 #95534] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+D, [2012-09-05T12:26:23.108646 #95534] DEBUG -- :   [1m[35mSQL (0.4ms)[0m  INSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)  [["file_name", "images/rainbow_basin___245_by_emperpep-d3iyp4h.jpg"], ["height", 200], ["mean_color", 3073207868], ["meta_data", nil], ["quality", nil], ["width", 284]]
+D, [2012-09-05T12:26:23.110696 #95534] DEBUG -- :   [1m[36m (1.7ms)[0m  [1mcommit transaction[0m
+D, [2012-09-05T12:26:23.410572 #95534] DEBUG -- :   [1m[35m (0.1ms)[0m  begin transaction
+D, [2012-09-05T12:26:23.411623 #95534] DEBUG -- :   [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)[0m  [["file_name", "images/weave_the_heavens_by_shilin-d3gtofl.jpg"], ["height", 200], ["mean_color", 2979327699], ["meta_data", nil], ["quality", nil], ["width", 259]]
+D, [2012-09-05T12:26:23.413917 #95534] DEBUG -- :   [1m[35m (2.0ms)[0m  commit transaction
+D, [2012-09-05T12:26:23.509356 #95534] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+D, [2012-09-05T12:26:23.510459 #95534] DEBUG -- :   [1m[35mSQL (0.3ms)[0m  INSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)  [["file_name", "images/55fca304bd6e1850d1704c2c9b48ea4c-d4uynbs.jpg"], ["height", 200], ["mean_color", 2769128809], ["meta_data", nil], ["quality", nil], ["width", 247]]
+D, [2012-09-05T12:26:23.512795 #95534] DEBUG -- :   [1m[36m (2.0ms)[0m  [1mcommit transaction[0m
+D, [2012-09-05T12:26:25.523950 #95534] DEBUG -- :   [1m[35m (0.1ms)[0m  begin transaction
+D, [2012-09-05T12:26:25.525459 #95534] DEBUG -- :   [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)[0m  [["file_name", "images/Panda_Samurai_by_CARLVS.jpg"], ["height", 200], ["mean_color", 2776922472], ["meta_data", nil], ["quality", nil], ["width", 200]]
+D, [2012-09-05T12:26:25.528379 #95534] DEBUG -- :   [1m[35m (2.5ms)[0m  commit transaction
+D, [2012-09-05T12:26:25.624459 #95534] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+D, [2012-09-05T12:26:25.625765 #95534] DEBUG -- :   [1m[35mSQL (0.4ms)[0m  INSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)  [["file_name", "images/Nightmare_Kayla_by_JessicaElwood.jpg"], ["height", 200], ["mean_color", 1464237451], ["meta_data", nil], ["quality", nil], ["width", 275]]
+D, [2012-09-05T12:26:25.627642 #95534] DEBUG -- :   [1m[36m (1.5ms)[0m  [1mcommit transaction[0m
+D, [2012-09-05T12:26:25.731075 #95534] DEBUG -- :   [1m[35m (0.1ms)[0m  begin transaction
+D, [2012-09-05T12:26:25.732144 #95534] DEBUG -- :   [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)[0m  [["file_name", "images/dance_the_night_away_by_amathaze-d559r5f.png"], ["height", 200], ["mean_color", 1859608360], ["meta_data", nil], ["quality", nil], ["width", 265]]
+D, [2012-09-05T12:26:25.733947 #95534] DEBUG -- :   [1m[35m (1.6ms)[0m  commit transaction
+D, [2012-09-05T12:26:25.935116 #95534] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+D, [2012-09-05T12:26:25.936159 #95534] DEBUG -- :   [1m[35mSQL (0.3ms)[0m  INSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)  [["file_name", "images/The_Hunt_by_Goro79.jpg"], ["height", 200], ["mean_color", 1635337590], ["meta_data", nil], ["quality", nil], ["width", 300]]
+D, [2012-09-05T12:26:25.938236 #95534] DEBUG -- :   [1m[36m (1.8ms)[0m  [1mcommit transaction[0m
+D, [2012-09-05T12:26:26.016690 #95534] DEBUG -- :   [1m[35m (0.1ms)[0m  begin transaction
+D, [2012-09-05T12:26:26.018473 #95534] DEBUG -- :   [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)[0m  [["file_name", "images/obese_pet_by_goro79-d37ewy3.jpg"], ["height", 200], ["mean_color", 3143451945], ["meta_data", nil], ["quality", nil], ["width", 200]]
+D, [2012-09-05T12:26:26.020507 #95534] DEBUG -- :   [1m[35m (1.6ms)[0m  commit transaction
+D, [2012-09-05T12:26:26.330682 #95534] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+D, [2012-09-05T12:26:26.331611 #95534] DEBUG -- :   [1m[35mSQL (0.3ms)[0m  INSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)  [["file_name", "images/reunion_by_hakubaikou.jpg"], ["height", 161], ["mean_color", 2040566980], ["meta_data", nil], ["quality", nil], ["width", 300]]
+D, [2012-09-05T12:26:26.333575 #95534] DEBUG -- :   [1m[36m (1.6ms)[0m  [1mcommit transaction[0m
+D, [2012-09-05T12:26:27.048328 #95534] DEBUG -- :   [1m[35m (0.1ms)[0m  begin transaction
+D, [2012-09-05T12:26:27.049435 #95534] DEBUG -- :   [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)[0m  [["file_name", "images/white_buffalo_calf_woman_by_aaronpaquette-d1bvtwi.jpg"], ["height", 200], ["mean_color", 2459173297], ["meta_data", nil], ["quality", nil], ["width", 200]]
+D, [2012-09-05T12:26:27.051765 #95534] DEBUG -- :   [1m[35m (2.0ms)[0m  commit transaction
+D, [2012-09-05T12:26:27.219210 #95534] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+D, [2012-09-05T12:26:27.220461 #95534] DEBUG -- :   [1m[35mSQL (0.3ms)[0m  INSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)  [["file_name", "images/team_sheep_by_shadowumbre-d4fprma.jpg"], ["height", 183], ["mean_color", 1599513387], ["meta_data", nil], ["quality", nil], ["width", 300]]
+D, [2012-09-05T12:26:27.222637 #95534] DEBUG -- :   [1m[36m (1.9ms)[0m  [1mcommit transaction[0m
+D, [2012-09-05T12:26:27.947549 #95534] DEBUG -- :   [1m[35m (0.1ms)[0m  begin transaction
+D, [2012-09-05T12:26:27.948638 #95534] DEBUG -- :   [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)[0m  [["file_name", "images/Deadly_Sexy_by_Romey1973.jpg"], ["height", 200], ["mean_color", 2460200022], ["meta_data", nil], ["quality", nil], ["width", 254]]
+D, [2012-09-05T12:26:27.950724 #95534] DEBUG -- :   [1m[35m (1.8ms)[0m  commit transaction
+D, [2012-09-05T12:26:28.049336 #95534] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+D, [2012-09-05T12:26:28.050371 #95534] DEBUG -- :   [1m[35mSQL (0.3ms)[0m  INSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)  [["file_name", "images/visit_of_the_goddess_by_sanguisgelidus-d41b3gx.jpg"], ["height", 197], ["mean_color", 721899409], ["meta_data", nil], ["quality", nil], ["width", 300]]
+D, [2012-09-05T12:26:28.052455 #95534] DEBUG -- :   [1m[36m (1.8ms)[0m  [1mcommit transaction[0m
+D, [2012-09-05T12:26:30.298999 #95534] DEBUG -- :   [1m[35m (0.1ms)[0m  begin transaction
+D, [2012-09-05T12:26:30.300276 #95534] DEBUG -- :   [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)[0m  [["file_name", "images/Oxford_Comma_by_bananaprincess.jpg"], ["height", 119], ["mean_color", 4149959268], ["meta_data", nil], ["quality", nil], ["width", 300]]
+D, [2012-09-05T12:26:30.302109 #95534] DEBUG -- :   [1m[35m (1.5ms)[0m  commit transaction
+D, [2012-09-05T12:26:30.534261 #95534] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+D, [2012-09-05T12:26:30.535553 #95534] DEBUG -- :   [1m[35mSQL (0.4ms)[0m  INSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)  [["file_name", "images/reshiram_and_zekrom_by_bluedragon85-d4qzch0.jpg"], ["height", 158], ["mean_color", 1282269494], ["meta_data", nil], ["quality", nil], ["width", 300]]
+D, [2012-09-05T12:26:30.537631 #95534] DEBUG -- :   [1m[36m (1.7ms)[0m  [1mcommit transaction[0m
+D, [2012-09-05T12:26:30.708678 #95534] DEBUG -- :   [1m[35m (0.2ms)[0m  begin transaction
+D, [2012-09-05T12:26:30.709957 #95534] DEBUG -- :   [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)[0m  [["file_name", "images/year_of_the_dragon_2012_by_art_and_soul-d4oxn72.jpg"], ["height", 188], ["mean_color", 3131252789], ["meta_data", nil], ["quality", nil], ["width", 300]]
+D, [2012-09-05T12:26:30.712038 #95534] DEBUG -- :   [1m[35m (1.8ms)[0m  commit transaction
+D, [2012-09-05T12:26:30.796557 #95534] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+D, [2012-09-05T12:26:30.798024 #95534] DEBUG -- :   [1m[35mSQL (0.4ms)[0m  INSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)  [["file_name", "images/Lost_City_by_ForestGirl.jpg"], ["height", 200], ["mean_color", 2534922258], ["meta_data", nil], ["quality", nil], ["width", 200]]
+D, [2012-09-05T12:26:30.800330 #95534] DEBUG -- :   [1m[36m (2.0ms)[0m  [1mcommit transaction[0m
+D, [2012-09-05T12:26:31.043933 #95534] DEBUG -- :   [1m[35m (0.1ms)[0m  begin transaction
+D, [2012-09-05T12:26:31.045117 #95534] DEBUG -- :   [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)[0m  [["file_name", "images/queen_beepo_by_saitenyo-d4uw9ym.jpg"], ["height", 197], ["mean_color", 3912103445], ["meta_data", nil], ["quality", nil], ["width", 300]]
+D, [2012-09-05T12:26:31.047209 #95534] DEBUG -- :   [1m[35m (1.7ms)[0m  commit transaction
+D, [2012-09-05T12:26:31.268238 #95534] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+D, [2012-09-05T12:26:31.269282 #95534] DEBUG -- :   [1m[35mSQL (0.3ms)[0m  INSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)  [["file_name", "images/cbc9443cb7d4a066e9f2ba0d414d51a7-d316iyk.jpg"], ["height", 200], ["mean_color", 2867975859], ["meta_data", nil], ["quality", nil], ["width", 296]]
+D, [2012-09-05T12:26:31.271298 #95534] DEBUG -- :   [1m[36m (1.6ms)[0m  [1mcommit transaction[0m
+D, [2012-09-05T12:26:31.491548 #95534] DEBUG -- :   [1m[35m (0.1ms)[0m  begin transaction
+D, [2012-09-05T12:26:31.493108 #95534] DEBUG -- :   [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)[0m  [["file_name", "images/glassss_cat_by_the_lemon_watch-d4utkif.png"], ["height", 200], ["mean_color", 2821177414], ["meta_data", nil], ["quality", nil], ["width", 200]]
+D, [2012-09-05T12:26:31.495042 #95534] DEBUG -- :   [1m[35m (1.6ms)[0m  commit transaction
+D, [2012-09-05T12:26:31.695560 #95534] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+D, [2012-09-05T12:26:31.696611 #95534] DEBUG -- :   [1m[35mSQL (0.4ms)[0m  INSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)  [["file_name", "images/Loudmouth_Prose_Writers_by_caveatLECTOR.jpg"], ["height", 118], ["mean_color", 3927052584], ["meta_data", nil], ["quality", nil], ["width", 300]]
+D, [2012-09-05T12:26:31.698682 #95534] DEBUG -- :   [1m[36m (1.7ms)[0m  [1mcommit transaction[0m
+D, [2012-09-05T12:26:33.683742 #95534] DEBUG -- :   [1m[35m (0.1ms)[0m  begin transaction
+D, [2012-09-05T12:26:33.684851 #95534] DEBUG -- :   [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)[0m  [["file_name", "images/_la_pple_by_random_user_at-d329579.jpg"], ["height", 200], ["mean_color", 2287617845], ["meta_data", nil], ["quality", nil], ["width", 228]]
+D, [2012-09-05T12:26:33.686916 #95534] DEBUG -- :   [1m[35m (1.8ms)[0m  commit transaction
+D, [2012-09-05T12:26:33.783495 #95534] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+D, [2012-09-05T12:26:33.784684 #95534] DEBUG -- :   [1m[35mSQL (0.3ms)[0m  INSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)  [["file_name", "images/October_by_titiavanbeugen.jpg"], ["height", 200], ["mean_color", 1112930115], ["meta_data", nil], ["quality", nil], ["width", 259]]
+D, [2012-09-05T12:26:33.786653 #95534] DEBUG -- :   [1m[36m (1.7ms)[0m  [1mcommit transaction[0m
+D, [2012-09-05T12:26:33.881989 #95534] DEBUG -- :   [1m[35m (0.1ms)[0m  begin transaction
+D, [2012-09-05T12:26:33.883034 #95534] DEBUG -- :   [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)[0m  [["file_name", "images/friendly_wisp_by_tanathe-d45lfuz.jpg"], ["height", 197], ["mean_color", 502201558], ["meta_data", nil], ["quality", nil], ["width", 299]]
+D, [2012-09-05T12:26:33.885138 #95534] DEBUG -- :   [1m[35m (1.8ms)[0m  commit transaction
+D, [2012-09-05T12:26:33.970002 #95534] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+D, [2012-09-05T12:26:33.971031 #95534] DEBUG -- :   [1m[35mSQL (0.3ms)[0m  INSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)  [["file_name", "images/The_Seasons_by_Isilmetriel.jpg"], ["height", 200], ["mean_color", 1373704602], ["meta_data", nil], ["quality", nil], ["width", 267]]
+D, [2012-09-05T12:26:33.973020 #95534] DEBUG -- :   [1m[36m (1.7ms)[0m  [1mcommit transaction[0m
+D, [2012-09-05T12:26:34.108969 #95534] DEBUG -- :   [1m[35m (0.1ms)[0m  begin transaction
+D, [2012-09-05T12:26:34.110147 #95534] DEBUG -- :   [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)[0m  [["file_name", "images/my_fire____by_carpediem70-d2zfhdf.png"], ["height", 200], ["mean_color", 898060409], ["meta_data", nil], ["quality", nil], ["width", 267]]
+D, [2012-09-05T12:26:34.112133 #95534] DEBUG -- :   [1m[35m (1.7ms)[0m  commit transaction
+D, [2012-09-05T12:26:34.203256 #95534] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+D, [2012-09-05T12:26:34.204348 #95534] DEBUG -- :   [1m[35mSQL (0.3ms)[0m  INSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)  [["file_name", "images/octopus_by_pshoudini-d582axy.jpg"], ["height", 200], ["mean_color", 1603084389], ["meta_data", nil], ["quality", nil], ["width", 234]]
+D, [2012-09-05T12:26:34.206312 #95534] DEBUG -- :   [1m[36m (1.7ms)[0m  [1mcommit transaction[0m
+D, [2012-09-05T12:26:34.385496 #95534] DEBUG -- :   [1m[35m (0.2ms)[0m  begin transaction
+D, [2012-09-05T12:26:34.386791 #95534] DEBUG -- :   [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)[0m  [["file_name", "images/pure_magic_by_babyc8kes-d34c9we.jpg"], ["height", 200], ["mean_color", 1696862702], ["meta_data", nil], ["quality", nil], ["width", 300]]
+D, [2012-09-05T12:26:34.388862 #95534] DEBUG -- :   [1m[35m (1.8ms)[0m  commit transaction
+D, [2012-09-05T12:26:34.466931 #95534] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+D, [2012-09-05T12:26:34.468264 #95534] DEBUG -- :   [1m[35mSQL (0.4ms)[0m  INSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)  [["file_name", "images/Exotica_II_by_Nameless_Designer.jpg"], ["height", 200], ["mean_color", 426605957], ["meta_data", nil], ["quality", nil], ["width", 250]]
+D, [2012-09-05T12:26:34.470142 #95534] DEBUG -- :   [1m[36m (1.6ms)[0m  [1mcommit transaction[0m
+D, [2012-09-05T12:26:34.567233 #95534] DEBUG -- :   [1m[35m (0.1ms)[0m  begin transaction
+D, [2012-09-05T12:26:34.568221 #95534] DEBUG -- :   [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)[0m  [["file_name", "images/Twilight_Unicorn_by_Manwathiell.png"], ["height", 200], ["mean_color", 655745925], ["meta_data", nil], ["quality", nil], ["width", 260]]
+D, [2012-09-05T12:26:34.570110 #95534] DEBUG -- :   [1m[35m (1.7ms)[0m  commit transaction
+D, [2012-09-05T12:26:34.662810 #95534] DEBUG -- :   [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+D, [2012-09-05T12:26:34.664004 #95534] DEBUG -- :   [1m[35mSQL (0.3ms)[0m  INSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)  [["file_name", "images/redefinition_dark_version_by_emziemzi-d45u5tm.jpg"], ["height", 200], ["mean_color", 1466298404], ["meta_data", nil], ["quality", nil], ["width", 250]]
+D, [2012-09-05T12:26:34.665824 #95534] DEBUG -- :   [1m[36m (1.4ms)[0m  [1mcommit transaction[0m
+D, [2012-09-05T12:26:34.772564 #95534] DEBUG -- :   [1m[35m (0.2ms)[0m  begin transaction
+D, [2012-09-05T12:26:34.773966 #95534] DEBUG -- :   [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)[0m  [["file_name", "images/Out_Of_My_Mind_by_gilad.jpg"], ["height", 200], ["mean_color", 1268636493], ["meta_data", nil], ["quality", nil], ["width", 293]]
+D, [2012-09-05T12:26:34.775956 #95534] DEBUG -- :   [1m[35m (1.7ms)[0m  commit transaction
+D, [2012-09-05T12:26:35.219555 #95534] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+D, [2012-09-05T12:26:35.220606 #95534] DEBUG -- :   [1m[35mSQL (0.3ms)[0m  INSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)  [["file_name", "images/space_by_gazer777-d47e10x.jpg"], ["height", 200], ["mean_color", 1248076949], ["meta_data", nil], ["quality", nil], ["width", 258]]
+D, [2012-09-05T12:26:35.222771 #95534] DEBUG -- :   [1m[36m (1.9ms)[0m  [1mcommit transaction[0m
+D, [2012-09-05T12:26:35.327072 #95534] DEBUG -- :   [1m[35m (0.1ms)[0m  begin transaction
+D, [2012-09-05T12:26:35.328444 #95534] DEBUG -- :   [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)[0m  [["file_name", "images/1de1435b5cd4cdece2f3ca750a9bb157.jpg"], ["height", 200], ["mean_color", 3590242772], ["meta_data", nil], ["quality", nil], ["width", 287]]
+D, [2012-09-05T12:26:35.330495 #95534] DEBUG -- :   [1m[35m (1.8ms)[0m  commit transaction
+D, [2012-09-05T12:26:35.488923 #95534] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+D, [2012-09-05T12:26:35.490125 #95534] DEBUG -- :   [1m[35mSQL (0.3ms)[0m  INSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)  [["file_name", "images/THINK_PINK_IV_submission_by_UndineCG.jpg"], ["height", 140], ["mean_color", 3131704364], ["meta_data", nil], ["quality", nil], ["width", 300]]
+D, [2012-09-05T12:26:35.492670 #95534] DEBUG -- :   [1m[36m (2.2ms)[0m  [1mcommit transaction[0m
+D, [2012-09-05T12:26:35.676110 #95534] DEBUG -- :   [1m[35m (0.1ms)[0m  begin transaction
+D, [2012-09-05T12:26:35.677388 #95534] DEBUG -- :   [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)[0m  [["file_name", "images/purple_flowers_by_mademoisellenadine-d3evf5x.jpg"], ["height", 200], ["mean_color", 1543059094], ["meta_data", nil], ["quality", nil], ["width", 267]]
+D, [2012-09-05T12:26:35.679761 #95534] DEBUG -- :   [1m[35m (2.1ms)[0m  commit transaction
+D, [2012-09-05T12:26:35.842869 #95534] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+D, [2012-09-05T12:26:35.843875 #95534] DEBUG -- :   [1m[35mSQL (0.3ms)[0m  INSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)  [["file_name", "images/Queen_loves_her_fallen_King_by_Fiery_Fire.jpg"], ["height", 167], ["mean_color", 2332237407], ["meta_data", nil], ["quality", nil], ["width", 300]]
+D, [2012-09-05T12:26:35.845792 #95534] DEBUG -- :   [1m[36m (1.7ms)[0m  [1mcommit transaction[0m
+D, [2012-09-05T12:26:35.937885 #95534] DEBUG -- :   [1m[35m (0.1ms)[0m  begin transaction
+D, [2012-09-05T12:26:35.938921 #95534] DEBUG -- :   [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)[0m  [["file_name", "images/difference_by_heavenriver-d2xwp6g.png"], ["height", 200], ["mean_color", 2944511024], ["meta_data", nil], ["quality", nil], ["width", 267]]
+D, [2012-09-05T12:26:35.941254 #95534] DEBUG -- :   [1m[35m (2.0ms)[0m  commit transaction
+D, [2012-09-05T12:26:37.556019 #95534] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+D, [2012-09-05T12:26:37.557122 #95534] DEBUG -- :   [1m[35mSQL (0.4ms)[0m  INSERT INTO "image_data" ("file_name", "height", "mean_color", "meta_data", "quality", "width") VALUES (?, ?, ?, ?, ?, ?)  [["file_name", "images/246_by_pleinezenitude-d40y2lo.jpg"], ["height", 187], ["mean_color", 1043425594], ["meta_data", nil], ["quality", nil], ["width", 300]]
+D, [2012-09-05T12:26:37.559591 #95534] DEBUG -- :   [1m[36m (2.2ms)[0m  [1mcommit transaction[0m

@@ -54,11 +54,18 @@ class Spider
           
           urls = get_attribute_list( links, "href" )
           content_urls = get_attribute_list( image_nodes, "src" )  
-            
+          content_urls = filter_urls(content_urls, "?")
+          
           content_urls.each do |c_url|
             image = download_image( c_url )
             unless image.nil? || image.img.nil?
-              ImageData.save( image )
+              
+              if image.high_quality_image? 
+                ImageData.save( image )
+              else
+                File.delete( image.file_name )
+              end
+              
             end
           end
 
@@ -81,6 +88,10 @@ class Spider
     return link_list
   end
   
+  def filter_urls(urls, pattern)
+     urls.delete_if { |url| url.include?(pattern)}
+  end
+  
   def get_attribute_list(nodes, attribute)
     attributes = Array.new()
     nodes.each do |node|
@@ -90,6 +101,8 @@ class Spider
   end
   
   def download_image( url )
+    return if url.nil? 
+    
     puts "downloading #{url}..." 
     system("cd images && curl -O -# #{url}")  
     parts = url.split('/')

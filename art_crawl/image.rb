@@ -4,9 +4,6 @@ include Magick
 module ArtCrawl
 
 class Image
-
-  #@@quantize_value = 32
-
   attr_reader :file_name
   attr_reader :img
   attr_reader :mean_color
@@ -45,6 +42,10 @@ class Image
     @img.quality
   end
   
+  def high_quality_image? 
+    return width() >= 200 
+  end
+  
   def get_mean_color( histogram )
     red = 0
     blue = 0
@@ -61,7 +62,12 @@ class Image
     red   /= count 
     green /= count 
     blue  /= count  
-    return {"red"=>red, "green"=>green, "blue"=>blue}
+    
+    rgb = red;
+    rgb = (rgb << 8) + green;
+    rgb = (rgb << 8) + blue;
+    
+    return rgb
   end
   
   
